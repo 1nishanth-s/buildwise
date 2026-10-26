@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.DS_Store
+backups/
+candidate_dataset_staging/
+third_dataset_research/original_downloads/
+
+
