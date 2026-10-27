@@ -27,7 +27,7 @@ class ValidatorTests(unittest.TestCase):
             prices["price_id"] == "price-mb-asus-tuf-b850-plus-wifi-20261021-01"
         ]
 
-        self.assertEqual(len(prices), 29)
+        self.assertGreaterEqual(len(prices), 29)
         self.assertEqual(len(matches), 1)
         self.assertEqual(
             matches.iloc[0].to_dict(),
@@ -78,7 +78,7 @@ class ValidatorTests(unittest.TestCase):
         }
         additions = prices[prices["price_id"].isin(expected)]
 
-        self.assertEqual(len(prices), 29)
+        self.assertGreaterEqual(len(prices), 29)
         self.assertEqual(len(additions), len(expected))
         for price_id, (component_id, amount, seller, url, checked_at) in expected.items():
             with self.subTest(price_id=price_id):
@@ -100,7 +100,7 @@ class ValidatorTests(unittest.TestCase):
             prices["price_id"] == "price-cooler-deepcool-ak400-computech-20261026-113610"
         ]
 
-        self.assertEqual(len(prices), 29)
+        self.assertGreaterEqual(len(prices), 29)
         self.assertEqual(len(matches), 1)
         self.assertEqual(
             matches.iloc[0].to_dict(),

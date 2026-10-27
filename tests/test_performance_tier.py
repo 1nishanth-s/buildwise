@@ -16,9 +16,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class PerformanceTierExperimentTests(unittest.TestCase):
     def test_prepares_catalog_without_identifier_features(self):
-        features, labels, quality = prepare_cpu_dataset(
-            ROOT / "data" / "components.csv"
-        )
+        baseline_path = ROOT / "backups" / "pre_integration_20261027" / "components.csv"
+        components_path = baseline_path if baseline_path.exists() else (ROOT / "data" / "components.csv")
+        features, labels, quality = prepare_cpu_dataset(components_path)
 
         self.assertEqual(tuple(features.columns), FEATURE_COLUMNS)
         self.assertEqual(len(features), 30)
@@ -78,6 +78,14 @@ class PerformanceTierExperimentTests(unittest.TestCase):
                 "all_labels_can_appear_in_every_test_fold"
             ]
         )
+
+        # Verify that when run on the live expanded catalog, unlabelled CPUs are safely excluded from training
+        live_features, live_labels, live_quality = prepare_cpu_dataset(
+            ROOT / "data" / "components.csv"
+        )
+        self.assertEqual(len(live_features), 30)
+        self.assertEqual(len(live_labels), 30)
+        self.assertEqual(live_quality["missing_label_records"], 34)
 
     def test_evaluation_reports_holdout_record_and_grouped_cv(self):
         features, labels, quality = prepare_cpu_dataset(

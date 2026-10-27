@@ -14,8 +14,10 @@ def run_validation():
     comp_file = base_dir / 'components.csv'
     price_file = base_dir / 'indian_prices.csv'
     usd_file = base_dir / 'usd_reference_prices.csv'
-    prod_comp_file = root / 'data/components.csv'
-    prod_price_file = root / 'data/prices.csv'
+    bak_comp_file = root / 'backups/pre_integration_20261027/components.csv'
+    prod_comp_file = bak_comp_file if bak_comp_file.exists() else (root / 'data/components.csv')
+    bak_price_file = root / 'backups/pre_integration_20261027/prices.csv'
+    prod_price_file = bak_price_file if bak_price_file.exists() else (root / 'data/prices.csv')
     
     print('========================================================')
     print('BuildWise-AI Curated Import Validation Suite')

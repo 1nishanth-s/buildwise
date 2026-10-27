@@ -237,6 +237,7 @@ class RecommendationTests(unittest.TestCase):
                 rows = [
                     row for row in reader
                     if row["price_id"] != "price-psu-corsair-rm750x-amazon-20261023-120759"
+                    and row["component_id"] != "DS3_PSU_001"
                 ]
                 fieldnames = reader.fieldnames
             with (data_dir / "prices.csv").open(
@@ -272,22 +273,44 @@ class RecommendationTests(unittest.TestCase):
             ))
 
     def test_equal_price_seller_observation_is_preferred_over_estimate(self):
-        app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=10).run()
-        app.number_input[0].set_value(200_000)
-        app.selectbox[0].set_value("study/office")
-        app.button[0].click().run()
+        with tempfile.TemporaryDirectory() as directory:
+            app_root = Path(directory)
+            data_dir = app_root / "data"
+            data_dir.mkdir()
+            shutil.copy2(ROOT / "app.py", app_root / "app.py")
+            shutil.copy2(ROOT / "data" / "components.csv", data_dir / "components.csv")
+            with (ROOT / "data" / "prices.csv").open(
+                newline="", encoding="utf-8-sig"
+            ) as source:
+                reader = csv.DictReader(source)
+                rows = [
+                    row for row in reader
+                    if row["component_id"] != "DS3_PSU_001"
+                ]
+                fieldnames = reader.fieldnames
+            with (data_dir / "prices.csv").open(
+                "w", newline="", encoding="utf-8"
+            ) as destination:
+                writer = csv.DictWriter(destination, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(rows)
 
-        self.assertFalse(app.exception)
-        selected = app.dataframe[0].value
-        psu = selected[selected["model"] == "RM750x (2024) 750W 80+ Gold"].iloc[0]
-        self.assertEqual(psu["price_inr"], 29370)
-        self.assertEqual(psu["availability"], "available")
-        self.assertEqual(psu["price_basis"], "Recorded seller observation")
-        self.assertEqual(psu["seller"], "Global Klamp")
-        self.assertTrue(any(
-            item.value.startswith("**Recorded-price total:**")
-            for item in app.markdown
-        ))
+            app = AppTest.from_file(str(app_root / "app.py"), default_timeout=10).run()
+            app.number_input[0].set_value(200_000)
+            app.selectbox[0].set_value("study/office")
+            app.button[0].click().run()
+
+            self.assertFalse(app.exception)
+            selected = app.dataframe[0].value
+            psu = selected[selected["model"] == "RM750x (2024) 750W 80+ Gold"].iloc[0]
+            self.assertEqual(psu["price_inr"], 29370)
+            self.assertEqual(psu["availability"], "available")
+            self.assertEqual(psu["price_basis"], "Recorded seller observation")
+            self.assertEqual(psu["seller"], "Global Klamp")
+            self.assertTrue(any(
+                item.value.startswith("**Recorded-price total:**")
+                for item in app.markdown
+            ))
 
     def test_simplified_interface_has_no_available_first_controls(self):
         app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=10).run()
@@ -445,13 +468,22 @@ class RecommendationTests(unittest.TestCase):
             data_dir.mkdir()
             shutil.copy2(ROOT / "app.py", app_root / "app.py")
             shutil.copy2(ROOT / "data" / "components.csv", data_dir / "components.csv")
+            with (data_dir / "components.csv").open(
+                newline="", encoding="utf-8"
+            ) as comp_source:
+                comp_reader = csv.DictReader(comp_source)
+                psu_ids = {
+                    row["component_id"]
+                    for row in comp_reader
+                    if row["category"].strip().casefold() == "psu"
+                }
             with (ROOT / "data" / "prices.csv").open(
                 newline="", encoding="utf-8"
             ) as source:
                 reader = csv.DictReader(source)
                 rows = [
                     row for row in reader
-                    if row["component_id"] != "psu-750w-gold"
+                    if row["component_id"] not in psu_ids
                 ]
                 fieldnames = reader.fieldnames
             with (data_dir / "prices.csv").open(
@@ -768,6 +800,7 @@ class RecommendationTests(unittest.TestCase):
                 rows = [
                     row for row in reader
                     if row["price_id"] != "price-psu-corsair-rm750x-amazon-20261023-120759"
+                    and row["component_id"] != "DS3_PSU_001"
                 ]
                 fieldnames = reader.fieldnames
             with (data_dir / "prices.csv").open(
