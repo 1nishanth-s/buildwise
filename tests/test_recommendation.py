@@ -230,6 +230,16 @@ class RecommendationTests(unittest.TestCase):
             data_dir.mkdir()
             shutil.copy2(ROOT / "app.py", app_root / "app.py")
             shutil.copy2(ROOT / "data" / "components.csv", data_dir / "components.csv")
+            with (data_dir / "components.csv").open(
+                newline="", encoding="utf-8"
+            ) as comp_source:
+                comp_reader = csv.DictReader(comp_source)
+                competing_psu_ids = {
+                    row["component_id"]
+                    for row in comp_reader
+                    if row["category"].strip().casefold() == "psu"
+                    and row["component_id"] != "psu-750w-gold"
+                }
             with (ROOT / "data" / "prices.csv").open(
                 newline="", encoding="utf-8-sig"
             ) as source:
@@ -237,7 +247,7 @@ class RecommendationTests(unittest.TestCase):
                 rows = [
                     row for row in reader
                     if row["price_id"] != "price-psu-corsair-rm750x-amazon-20261023-120759"
-                    and row["component_id"] != "DS3_PSU_001"
+                    and row["component_id"] not in competing_psu_ids
                 ]
                 fieldnames = reader.fieldnames
             with (data_dir / "prices.csv").open(
@@ -279,13 +289,23 @@ class RecommendationTests(unittest.TestCase):
             data_dir.mkdir()
             shutil.copy2(ROOT / "app.py", app_root / "app.py")
             shutil.copy2(ROOT / "data" / "components.csv", data_dir / "components.csv")
+            with (data_dir / "components.csv").open(
+                newline="", encoding="utf-8"
+            ) as comp_source:
+                comp_reader = csv.DictReader(comp_source)
+                competing_psu_ids = {
+                    row["component_id"]
+                    for row in comp_reader
+                    if row["category"].strip().casefold() == "psu"
+                    and row["component_id"] != "psu-750w-gold"
+                }
             with (ROOT / "data" / "prices.csv").open(
                 newline="", encoding="utf-8-sig"
             ) as source:
                 reader = csv.DictReader(source)
                 rows = [
                     row for row in reader
-                    if row["component_id"] != "DS3_PSU_001"
+                    if row["component_id"] not in competing_psu_ids
                 ]
                 fieldnames = reader.fieldnames
             with (data_dir / "prices.csv").open(
@@ -520,13 +540,22 @@ class RecommendationTests(unittest.TestCase):
             data_dir.mkdir()
             shutil.copy2(ROOT / "app.py", app_root / "app.py")
             shutil.copy2(ROOT / "data" / "components.csv", data_dir / "components.csv")
+            with (data_dir / "components.csv").open(
+                newline="", encoding="utf-8"
+            ) as comp_source:
+                comp_reader = csv.DictReader(comp_source)
+                gpu_ids = {
+                    row["component_id"]
+                    for row in comp_reader
+                    if row["category"].strip().casefold() == "gpu"
+                }
             with (ROOT / "data" / "prices.csv").open(
                 newline="", encoding="utf-8"
             ) as source:
                 reader = csv.DictReader(source)
                 rows = [
                     row for row in reader
-                    if row["component_id"] != "gpu-nvidia-asus-prime-rtx5070-o12g"
+                    if row["component_id"] not in gpu_ids
                 ]
                 fieldnames = reader.fieldnames
             with (data_dir / "prices.csv").open(
@@ -793,6 +822,16 @@ class RecommendationTests(unittest.TestCase):
             data_dir.mkdir()
             shutil.copy2(ROOT / "app.py", app_root / "app.py")
             shutil.copy2(ROOT / "data" / "components.csv", data_dir / "components.csv")
+            with (data_dir / "components.csv").open(
+                newline="", encoding="utf-8"
+            ) as comp_source:
+                comp_reader = csv.DictReader(comp_source)
+                competing_psu_ids = {
+                    row["component_id"]
+                    for row in comp_reader
+                    if row["category"].strip().casefold() == "psu"
+                    and row["component_id"] != "psu-750w-gold"
+                }
             with (ROOT / "data" / "prices.csv").open(
                 newline="", encoding="utf-8-sig"
             ) as source:
@@ -800,7 +839,7 @@ class RecommendationTests(unittest.TestCase):
                 rows = [
                     row for row in reader
                     if row["price_id"] != "price-psu-corsair-rm750x-amazon-20261023-120759"
-                    and row["component_id"] != "DS3_PSU_001"
+                    and row["component_id"] not in competing_psu_ids
                 ]
                 fieldnames = reader.fieldnames
             with (data_dir / "prices.csv").open(
