@@ -1,0 +1,14 @@
+feature_name,total_records,non_missing_records,missing_records,missing_percentage,unique_values,data_type,invalid_value_count,units,source_mapping,decision,rationale
+cores,180,180,0,0.0,13,int,0,count,specs_json.cores,retained,Physical core count; 100% complete; fundamental scaling predictor
+threads,180,180,0,0.0,16,int,0,count,specs_json.threads,retained,Logical thread count; 100% complete; correlates with SMT scaling
+boost_clock_ghz,180,180,0,0.0,28,float,0,GHz,specs_json.boost_ghz,retained,Maximum single-core turbo frequency; 100% complete
+base_clock_ghz,180,150,30,16.67,21,float,0,GHz,specs_json.base_clock_ghz,imputation_candidate,Guaranteed base frequency; 83.3% complete; 30 missing; median imputation candidate
+tdp_w,180,180,0,0.0,27,float,0,Watts,specs_json.tdp_w,retained,Thermal design power / base power; 100% complete; electrical headroom
+brand,180,180,0,0.0,2,categorical,0,text,components.brand,retained,Silicon vendor (AMD / Intel); 100% complete; captures manufacturer design
+socket,180,180,0,0.0,10,categorical,0,text,specs_json.socket,retained,"Motherboard socket platform (AM4, AM5, LGA1700, etc.); 100% complete; proxies generation"
+ram_type,180,180,0,0.0,3,categorical,0,text,specs_json.ram_type,retained,"Supported memory interface (DDR4, DDR5); 100% complete"
+architecture,180,34,146,81.11,5,categorical,0,text,specs_json.architecture,excluded,Microarchitecture string; only 18.9% populated in catalog (34/180); excluded to prevent bias
+l3_cache_mb,180,0,180,100.0,0,float,0,MB,specs_json.l3_cache_mb,excluded,L3 cache capacity; 0% populated in canonical catalog (0/180); excluded
+l2_cache_mb,180,0,180,100.0,0,float,0,MB,specs_json.l2_cache_mb,excluded,L2 cache capacity; 0% populated in canonical catalog (0/180); excluded
+process_nm,180,0,180,100.0,0,float,0,nm,specs_json.process_nm,excluded,Process node; 0% populated in canonical catalog (0/180); excluded
+integrated_graphics,180,150,30,16.67,8,boolean,0,bool,specs_json.integrated_graphics,excluded,iGPU presence; not predictive of CPU Cinebench Multi-Core compute power

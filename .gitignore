@@ -1,10 +1,84 @@
+# =============================================================================
+# BuildWise-AI — Git Ignore Configuration
+# =============================================================================
+
+# --- Virtual Environments ---
 .venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# --- Python Bytecode & Cache ---
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# --- Local Databases & User History (Fresh DB auto-initialized by app) ---
+data/*.db
+data/*.sqlite3
+data/buildwise_projects.db
+data/e2e_test_projects.db
+*.db
+*.sqlite3
+
+# --- Environment Files & Secrets ---
+.env
+.env.local
+.env.*.local
 .streamlit/secrets.toml
-.DS_Store
+!.env.example
+
+# --- Frontend Node Modules & Production Builds ---
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+
+# --- Playwright & Test Artifacts ---
+playwright-report/
+**/playwright-report/
+test-results/
+**/test-results/
+frontend/scratch/
+
+# --- Local Development Scratch Files ---
+scratch/
+**/scratch/
 backups/
 candidate_dataset_staging/
 third_dataset_research/original_downloads/
 
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
+# --- Operating System & Editor Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================================================================
+# Explicit Whitelist for Production Assets (Never Ignored)
+# =============================================================================
+!data/components.csv
+!data/prices.csv
+!data/benchmarks.csv
+!experiments/performance_prediction/models/best_cpu_pipeline.joblib
+!experiments/performance_prediction/models/best_gpu_pipeline.joblib
+!experiments/performance_prediction/models/*.json

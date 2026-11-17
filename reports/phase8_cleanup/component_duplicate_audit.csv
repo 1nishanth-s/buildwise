@@ -1,0 +1,3 @@
+component_id,category,brand,model,classification,reason,recommended_action
+DS3_MB_028,motherboard,Gigabyte,B650M GAMING PLUS WIFI,legitimate_variant,"Shares model string with MSI board but manufactured by Gigabyte; distinct PCB layout and vendor specs",preserve
+DS3_MB_074,motherboard,MSI,B650M GAMING PLUS WIFI,legitimate_variant,"Shares model string with Gigabyte board but manufactured by MSI; distinct PCB layout and vendor specs",preserve

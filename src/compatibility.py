@@ -754,3 +754,59 @@ def check_ram_speed_qvl(
         "unknown",
         f"RAM speed {speed:g} MT/s exceeds standard JEDEC baseline (up to {jedec_baseline} MT/s) and memory profile information (JEDEC vs EXPO/XMP) is unverified and unlisted on the motherboard memory QVL.",
     )
+
+def check_graphics_output(
+    cpu_specs: Mapping[str, Any],
+    gpu_specs: Mapping[str, Any] | None = None,
+) -> CompatibilityResult:
+    """Evaluates whether the system provides display output.
+
+    - If a discrete GPU is present (gpu_specs non-empty), display output is satisfied.
+    - If no discrete GPU is present:
+      - If CPU has documented integrated graphics, basic display output is supported.
+      - If CPU explicitly documents no integrated graphics (e.g. 'None', 'No', False),
+        it is incompatible without a discrete GPU.
+      - If integrated graphics specification is missing/empty, reports unknown.
+    """
+    has_discrete_gpu = bool(gpu_specs and any(not _missing(v) for v in gpu_specs.values()))
+
+    raw_ig = cpu_specs.get("integrated_graphics")
+    if _missing(raw_ig):
+        ig_val = None
+    else:
+        ig_val = str(raw_ig).strip()
+
+    if has_discrete_gpu:
+        if ig_val and ig_val.casefold() not in {"none", "no", "false", "n/a", "0"}:
+            return CompatibilityResult(
+                "compatible",
+                f"Display output is supported by discrete GPU (CPU also includes integrated graphics: {ig_val}).",
+            )
+        elif ig_val and ig_val.casefold() in {"none", "no", "false", "n/a", "0"}:
+            return CompatibilityResult(
+                "compatible",
+                "Display output is supported by discrete GPU (CPU lacks integrated graphics).",
+            )
+        else:
+            return CompatibilityResult(
+                "compatible",
+                "Display output is supported by discrete GPU.",
+            )
+
+    # No discrete GPU present
+    if ig_val is None:
+        return CompatibilityResult(
+            "unknown",
+            "CPU integrated graphics specification is missing or unverified; basic display output capability cannot be confirmed without a discrete GPU.",
+        )
+
+    if ig_val.casefold() in {"none", "no", "false", "n/a", "0"}:
+        return CompatibilityResult(
+            "incompatible",
+            f"CPU does not include integrated graphics ({raw_ig}); a discrete GPU is required for basic display output.",
+        )
+
+    return CompatibilityResult(
+        "compatible",
+        f"CPU includes integrated graphics ({raw_ig}); basic display output is supported without a discrete GPU.",
+    )

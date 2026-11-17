@@ -1,0 +1,10 @@
+category,production_baseline,accepted_candidates,held_staging,unified_total,catalog_percentage
+cpu,64,116,0,180,14.90%
+gpu,75,143,2,218,18.05%
+motherboard,95,85,0,180,14.90%
+ram,49,111,0,160,13.25%
+storage,45,105,0,150,12.42%
+psu,37,83,0,120,9.93%
+case,33,67,0,100,8.28%
+cooler,23,77,0,100,8.28%
+TOTAL,421,787,2,1208,100.00%

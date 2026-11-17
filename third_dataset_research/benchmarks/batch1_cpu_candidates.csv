@@ -1,0 +1,14 @@
+benchmark_id,component_id,category,benchmark_suite,benchmark_metric,score,score_unit,source_name,source_url,verified_date,test_configuration
+BM_CPU_001,cpu-r5-9600x,cpu,Cinebench R23,Multi-Core Score,17689,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_9600x,2026-11-02,"Stock 65W TDP, DDR5-6000, 360mm AIO liquid cooler"
+BM_CPU_002,cpu-r7-9700x,cpu,Cinebench R23,Multi-Core Score,23127,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_9700x,2026-11-02,"Stock 65W TDP, DDR5-6000, 360mm AIO liquid cooler"
+BM_CPU_003,cpu-r7-9800x3d,cpu,Cinebench R23,Multi-Core Score,22986,pts,StorageReview,https://www.storagereview.com/review/amd-ryzen-7-9800x3d-review,2026-11-02,"Stock clocks, default 120W TDP envelope, DDR5-6000, standard testbed"
+BM_CPU_004,amd-ryzen-7-7800x3d,cpu,Cinebench R23,Multi-Core Score,17762,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_7800x3d,2026-11-02,"Stock clocks, default 120W TDP, DDR5-6000 EXPO profile"
+BM_CPU_005,amd-ryzen-7-7700x,cpu,Cinebench R23,Multi-Core Score,20399,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_7700x,2026-11-02,"Stock clocks, 105W TDP envelope, DDR5-6000, 360mm AIO"
+BM_CPU_006,amd-ryzen-5-7600x,cpu,Cinebench R23,Multi-Core Score,15315,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_7600x,2026-11-02,"Stock clocks, 105W TDP envelope, DDR5-6000, 360mm AIO"
+BM_CPU_007,DS3_CPU_007,cpu,Cinebench R23,Multi-Core Score,10940,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_5500,2026-11-02,"Stock clocks, 65W TDP, DDR4-3200 dual-channel, tower air cooler"
+BM_CPU_008,DS3_CPU_009,cpu,Cinebench R23,Multi-Core Score,10988,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_5600x,2026-11-02,"Stock clocks, 65W TDP, DDR4-3200 dual-channel, tower air cooler"
+BM_CPU_009,DS3_CPU_010,cpu,Cinebench R23,Multi-Core Score,11077,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_5600,2026-11-02,"Stock clocks, 65W TDP, DDR4-3200 dual-channel, tower air cooler"
+BM_CPU_010,DS3_CPU_014,cpu,Cinebench R23,Multi-Core Score,12454,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i5_12400f,2026-11-02,"Stock power limits (65W base / 117W max turbo), DDR4-3200"
+BM_CPU_011,DS3_CPU_029,cpu,Cinebench R23,Multi-Core Score,10202,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_5600g,2026-11-02,"Stock clocks, 65W TDP, DDR4-3200 dual-channel, standard air cooler"
+BM_CPU_012,DS3_CPU_040,cpu,Cinebench R23,Multi-Core Score,8443,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i3_12100f,2026-11-02,"Stock power limits (60W base / 89W max turbo), DDR4-3200"
+

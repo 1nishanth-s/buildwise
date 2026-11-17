@@ -1,0 +1,108 @@
+{
+  "model_id": "buildwise_gpu_perf_regressor_v1",
+  "device_type": "GPU",
+  "task": "GPU Empirical Benchmark Regression",
+  "target_variable": "timespy_graphics_score",
+  "selected_algorithm": "Ridge Regression (alpha=1.0)",
+  "hyperparameters": {
+    "alpha": 1.0,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": null,
+    "positive": false,
+    "random_state": 42,
+    "solver": "auto",
+    "tol": 0.0001
+  },
+  "features": {
+    "numeric_features": [
+      "vram_gb",
+      "memory_bus_width_bits",
+      "memory_bandwidth_gbps",
+      "base_clock_mhz",
+      "boost_clock_mhz",
+      "board_power_w"
+    ],
+    "categorical_features": [
+      "architecture",
+      "chipmaker",
+      "memory_type"
+    ],
+    "total_features": 9,
+    "feature_list": [
+      "vram_gb",
+      "memory_bus_width_bits",
+      "memory_bandwidth_gbps",
+      "base_clock_mhz",
+      "boost_clock_mhz",
+      "board_power_w",
+      "architecture",
+      "chipmaker",
+      "memory_type"
+    ]
+  },
+  "dataset": {
+    "source_file": "gpu_training_dataset.csv",
+    "sample_count": 57,
+    "group_column": "group_id",
+    "group_count": 14,
+    "groups": [
+      "amd_rdna2_navi22",
+      "amd_rdna2_navi23",
+      "amd_rdna3_navi31",
+      "amd_rdna3_navi32",
+      "amd_rdna3_navi33",
+      "intel_bmg_g21",
+      "nvidia_ada_ad102",
+      "nvidia_ada_ad103",
+      "nvidia_ada_ad104",
+      "nvidia_ada_ad106",
+      "nvidia_ada_ad107",
+      "nvidia_ampere_ga104",
+      "nvidia_ampere_ga106",
+      "nvidia_ampere_ga107"
+    ],
+    "sha256": "b1b54358c4449257afd9e69116e40c94277f17e373049e81f470f4d852309589"
+  },
+  "validation_strategy": {
+    "cross_validation": "GroupKFold",
+    "cv_splits": 4,
+    "holdout_method": "GroupShuffleSplit",
+    "holdout_test_size": 0.2,
+    "holdout_random_state": 42
+  },
+  "metrics": {
+    "cv": {
+      "mae_mean": 1355.2526045586471,
+      "mae_std": 233.29555778154113,
+      "rmse_mean": 1584.024819753381,
+      "rmse_std": 266.58640225322523,
+      "r2_mean": 0.9016805613581378,
+      "r2_std": 0.07781111677718201
+    },
+    "holdout": {
+      "train_samples": 48,
+      "test_samples": 9,
+      "test_groups": [
+        "amd_rdna2_navi22",
+        "nvidia_ada_ad106",
+        "nvidia_ampere_ga104"
+      ],
+      "mae": 1282.3764628395593,
+      "rmse": 1438.9065607244584,
+      "r2": -1.667571505514545
+    }
+  },
+  "artifacts": {
+    "pipeline_file": "best_gpu_pipeline.joblib",
+    "pipeline_sha256": "1d5ebc27df0af982cb4a88fa4eb4519555ba90216f9a0432d0d6dcfc0aae7fec",
+    "file_size_bytes": 4754
+  },
+  "environment": {
+    "scikit_learn_version": "1.9.1",
+    "joblib_version": "1.6.0",
+    "pandas_version": "3.0.6",
+    "numpy_version": "2.4.6",
+    "trained_at_utc": "2026-11-08T14:27:20.768718+00:00"
+  }
+}

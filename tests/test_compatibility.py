@@ -15,6 +15,7 @@ from src.compatibility import (
     check_cooler_case,
     check_cooler,
     check_ram_speed_qvl,
+    check_graphics_output,
 )
 
 
@@ -645,6 +646,65 @@ class CompatibilityTests(unittest.TestCase):
         res_4dimm = check_ram_speed_qvl(ram_4dimm, board, cpu_specs=cpu_dimm_limits)
         self.assertEqual(res_4dimm.status, "unknown")
         self.assertIn("exceeds the CPU's documented limit of 3600 MT/s for 4-DIMM", res_4dimm.reason)
+
+
+
+    def test_graphics_output_ryzen_5500_lacks_igpu_and_requires_discrete_gpu(self):
+        # DS3_CPU_007: Ryzen 5 5500 with explicit 'None' integrated graphics
+        cpu_specs = {"integrated_graphics": "None"}
+        res_no_gpu = check_graphics_output(cpu_specs, None)
+        self.assertEqual(res_no_gpu.status, "incompatible")
+        self.assertIn("CPU does not include integrated graphics", res_no_gpu.reason)
+        self.assertIn("discrete GPU is required", res_no_gpu.reason)
+
+        gpu_specs = {"model": "Gigabyte EAGLE RX 6600"}
+        res_with_gpu = check_graphics_output(cpu_specs, gpu_specs)
+        self.assertEqual(res_with_gpu.status, "compatible")
+        self.assertIn("Display output is supported by discrete GPU", res_with_gpu.reason)
+
+    def test_graphics_output_apu_5600g_and_5600gt_supported_without_gpu(self):
+        # DS3_CPU_029 & DS3_CPU_055: Ryzen 5 5600G / 5600GT with Radeon Vega 7
+        for ig in ["Radeon Vega 7", "AMD Radeon Graphics"]:
+            cpu_specs = {"integrated_graphics": ig}
+            res_no_gpu = check_graphics_output(cpu_specs, None)
+            self.assertEqual(res_no_gpu.status, "compatible")
+            self.assertIn("CPU includes integrated graphics", res_no_gpu.reason)
+            self.assertIn(ig, res_no_gpu.reason)
+
+            gpu_specs = {"model": "RX 6600"}
+            res_with_gpu = check_graphics_output(cpu_specs, gpu_specs)
+            self.assertEqual(res_with_gpu.status, "compatible")
+
+    def test_graphics_output_intel_f_vs_non_f_cpus(self):
+        # DS3_CPU_040: Core i3-12100F (None) vs Core i3-12100 (Intel UHD Graphics 730)
+        i3_f = {"integrated_graphics": "None"}
+        self.assertEqual(check_graphics_output(i3_f, None).status, "incompatible")
+        self.assertEqual(check_graphics_output(i3_f, {"model": "RTX 4060"}).status, "compatible")
+
+        i3_non_f = {"integrated_graphics": "Intel UHD Graphics 730"}
+        self.assertEqual(check_graphics_output(i3_non_f, None).status, "compatible")
+        self.assertEqual(check_graphics_output(i3_non_f, {"model": "RTX 4060"}).status, "compatible")
+
+    def test_graphics_output_missing_or_unverified_igpu_reports_honest_unknown(self):
+        # Ryzen 5 9600X or empty specs where integrated_graphics is missing
+        missing_specs = {}
+        res_no_gpu = check_graphics_output(missing_specs, None)
+        self.assertEqual(res_no_gpu.status, "unknown")
+        self.assertIn("CPU integrated graphics specification is missing or unverified", res_no_gpu.reason)
+
+        res_with_gpu = check_graphics_output(missing_specs, {"model": "RX 6600"})
+        self.assertEqual(res_with_gpu.status, "compatible")
+
+    def test_graphics_output_does_not_infer_from_brand_or_model_name(self):
+        # Spec with misleading model name but missing integrated_graphics key
+        cpu_with_name_only = {"model": "Ryzen 5 5600G with Radeon Graphics"}
+        res = check_graphics_output(cpu_with_name_only, None)
+        self.assertEqual(res.status, "unknown")
+
+        # Spec with non-F model name but explicit None
+        intel_non_f_but_none = {"model": "Intel Core i5-12400", "integrated_graphics": "None"}
+        res2 = check_graphics_output(intel_non_f_but_none, None)
+        self.assertEqual(res2.status, "incompatible")
 
 
 if __name__ == "__main__":

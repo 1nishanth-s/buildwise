@@ -1,0 +1,9 @@
+benchmark_id,component_id,category,benchmark_suite,benchmark_metric,score,score_unit,source_name,source_url,verified_date,test_configuration
+BM_CPU_040,cpu-r9-9900x,cpu,Cinebench R23,Multi-Core Score,32960,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_9900x,2026-11-06,"Stock 120W TDP envelope, DDR5-5600"
+BM_CPU_041,amd-ryzen-9-9950x,cpu,Cinebench R23,Multi-Core Score,42871,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_9950x,2026-11-06,"Stock 170W TDP envelope, DDR5-5600"
+BM_CPU_042,amd-ryzen-9-7950x3d,cpu,Cinebench R23,Multi-Core Score,38581,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_7950x3d,2026-11-06,"Stock settings, 120W TDP envelope, DDR5-5200"
+BM_CPU_043,amd-ryzen-9-7950x,cpu,Cinebench R23,Multi-Core Score,38640,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_7950x,2026-11-06,"Stock settings, 170W TDP envelope, DDR5-5200"
+BM_CPU_044,amd-ryzen-9-7900x,cpu,Cinebench R23,Multi-Core Score,29654,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_7900x,2026-11-06,"Stock settings, 170W TDP envelope, DDR5-5200"
+BM_CPU_045,amd-ryzen-9-7900,cpu,Cinebench R23,Multi-Core Score,28905,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_7900,2026-11-06,"Stock settings, 65W TDP envelope, DDR5-5200"
+BM_CPU_046,DS3_CPU_034,cpu,Cinebench R23,Multi-Core Score,21878,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_5900x,2026-11-06,"Stock settings, 105W TDP envelope, DDR4-3200 dual-channel"
+BM_CPU_047,DS3_CPU_057,cpu,Cinebench R23,Multi-Core Score,27966,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_9_5900xt,2026-11-06,"Stock settings, 105W TDP envelope, DDR4-3200 dual-channel"

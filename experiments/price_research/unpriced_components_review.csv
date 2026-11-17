@@ -1,0 +1,155 @@
+component_id,category,brand,model,batch_id,research_notes,researched_at
+amd-ryzen-9-9950x3d2-dual-edition,cpu,AMD,Ryzen 9 9950X3D2 Dual Edition,BATCH_01_CPU,Unreleased / hypothetical concept CPU; no Indian retail listing exists.,2026-11-08
+amd-ryzen-9-9950x3d,cpu,AMD,Ryzen 9 9950X3D,BATCH_01_CPU,Unreleased retail SKU; no live retail pricing in Indian market.,2026-11-08
+amd-ryzen-7-9850x3d,cpu,AMD,Ryzen 7 9850X3D,BATCH_01_CPU,Non-existent retail model; unreleased by AMD.,2026-11-08
+cpu-intel-core-ultra-5-225f,cpu,Intel,Core Ultra 5 225F,BATCH_01_CPU,OEM-only non-K SKU without Indian retail distribution.,2026-11-08
+gpu-rtx-5060-ti-16gb,gpu,NVIDIA AIB,RTX 5060 Ti 16GB,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-rx-9060-xt-16gb,gpu,AMD AIB,RX 9060 XT 16GB,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-rtx-5070,gpu,NVIDIA AIB,RTX 5070,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-rtx-5070-ti-16gb,gpu,NVIDIA AIB,RTX 5070 Ti 16GB,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-rtx-5080-fe,gpu,NVIDIA FE,RTX 5080 Founders Edition,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-nvidia-asus-rog-astral-rtx5090-o32g,gpu,ASUS,ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-nvidia-asus-tuf-rtx5080-o16g,gpu,ASUS,TUF Gaming GeForce RTX 5080 16GB GDDR7 OC Edition,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-nvidia-asus-dual-rtx5060ti-o8g,gpu,ASUS,Dual GeForce RTX 5060 Ti 8GB GDDR7 OC Edition,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-nvidia-asus-dual-rtx5060-o8g,gpu,ASUS,Dual GeForce RTX 5060 8GB GDDR7 OC Edition,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-nvidia-asus-prime-rtx5050-o8g,gpu,ASUS,Prime GeForce RTX 5050 8GB GDDR6 OC Edition (SFF-Ready),BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-amd-radeon-rx-9070-xt-16gb,gpu,AMD,Radeon RX 9070 XT 16GB,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+gpu-amd-radeon-rx-9060-xt-8gb,gpu,AMD,Radeon RX 9060 XT 8GB,BATCH_04_GPU,Unreleased concept SKU; no verified Indian retail listing.,2026-11-08
+samsung-9100-pro-4tb,storage,Samsung,9100 PRO 4TB,BATCH_14_STORAGE,Unreleased Gen5 SSD flagship; no Indian retail distribution.,2026-11-08
+CAND_CPU_001,cpu,AMD,Ryzen 3 1200,BATCH_01_CPU,Legacy Zen 1 CPU launched in 2017; discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_007,cpu,AMD,Ryzen 7 1700,BATCH_02_CPU,Legacy Zen 1 CPU (Ryzen 7 1700) launched in 2017; discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_008,cpu,AMD,Ryzen 7 1700X,BATCH_02_CPU,Legacy Zen 1 CPU (Ryzen 7 1700X); discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_009,cpu,AMD,Ryzen 7 1800X,BATCH_02_CPU,Legacy Zen 1 CPU (Ryzen 7 1800X); discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_010,cpu,AMD,Ryzen 3 2200G,BATCH_02_CPU,Legacy Raven Ridge APU (Ryzen 3 2200G); discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_011,cpu,AMD,Ryzen 5 2400G,BATCH_02_CPU,Legacy Raven Ridge APU (Ryzen 5 2400G); discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_012,cpu,AMD,Ryzen 5 2600,BATCH_02_CPU,Legacy Pinnacle Ridge CPU (Ryzen 5 2600); discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_014,cpu,AMD,Ryzen 7 2700,BATCH_02_CPU,Legacy Pinnacle Ridge CPU (Ryzen 7 2700); discontinued and EOL in Indian retail.,2026-11-08
+CAND_CPU_016,cpu,AMD,Ryzen 3 3100,BATCH_02_CPU,Discontinued budget Zen 2 CPU (Ryzen 3 3100); no active Indian retail stock.,2026-11-08
+CAND_CPU_018,cpu,AMD,Ryzen 3 3300X,BATCH_02_CPU,Discontinued Zen 2 CPU (Ryzen 3 3300X); out of production and EOL.,2026-11-08
+CAND_CPU_020,cpu,AMD,Ryzen 5 3500,BATCH_02_CPU,Discontinued OEM/retail Zen 2 CPU (Ryzen 5 3500); no active retailer listing.,2026-11-08
+CAND_CPU_024,cpu,AMD,Ryzen 7 3800X,BATCH_02_CPU,Discontinued Zen 2 CPU (Ryzen 7 3800X); out of production and EOL.,2026-11-08
+CAND_CPU_026,cpu,AMD,Ryzen 9 3950X,BATCH_02_CPU,Discontinued Zen 2 CPU (Ryzen 9 3950X); out of production and EOL.,2026-11-08
+CAND_CPU_028,cpu,AMD,Ryzen 3 4300G,BATCH_02_CPU,OEM-only Renoir APU (Ryzen 3 4300G); no verified Indian retail boxed listing.,2026-11-08
+CAND_CPU_031,cpu,AMD,Ryzen 7 4700G,BATCH_02_CPU,OEM-only Renoir APU (Ryzen 7 4700G); no verified Indian retail boxed listing.,2026-11-08
+CAND_CPU_038,cpu,AMD,Ryzen Threadripper 2950X,BATCH_02_CPU,Discontinued Threadripper 2000 (2950X); EOL workstation part.,2026-11-08
+CAND_CPU_039,cpu,AMD,Ryzen Threadripper 3960X,BATCH_02_CPU,Discontinued Threadripper 3000 (3960X); EOL workstation part.,2026-11-08
+CAND_CPU_040,cpu,AMD,Ryzen Threadripper 3970X,BATCH_02_CPU,Discontinued Threadripper 3000 (3970X); EOL workstation part.,2026-11-08
+CAND_CPU_044,cpu,Intel,Celeron G4900,BATCH_02_CPU,Discontinued Coffee Lake (Celeron G4900); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_045,cpu,Intel,Pentium Gold G5400,BATCH_02_CPU,Discontinued Coffee Lake (Pentium Gold G5400); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_047,cpu,Intel,Core i5-8400,BATCH_02_CPU,Discontinued Coffee Lake (Core i5-8400); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_049,cpu,Intel,Core i5-8600K,BATCH_02_CPU,Discontinued Coffee Lake (Core i5-8600K); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_051,cpu,Intel,Core i7-8700K,BATCH_02_CPU,Discontinued Coffee Lake (Core i7-8700K); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_056,cpu,Intel,Core i5-9600K,BATCH_02_CPU,Discontinued Coffee Lake Refresh (Core i5-9600K); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_058,cpu,Intel,Core i7-9700F,BATCH_02_CPU,Discontinued Coffee Lake Refresh (Core i7-9700F); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_059,cpu,Intel,Core i7-9700K,BATCH_02_CPU,Discontinued Coffee Lake Refresh (Core i7-9700K); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_060,cpu,Intel,Core i9-9900,BATCH_03_CPU,Discontinued Coffee Lake Refresh flagship (Core i9-9900); EOL LGA1151 socket.,2026-11-08
+CAND_CPU_070,cpu,Intel,Core i5-10500,BATCH_03_CPU,Discontinued Comet Lake CPU (Core i5-10500); no active Indian retailer stock.,2026-11-08
+CAND_CPU_071,cpu,Intel,Core i5-10600K,BATCH_03_CPU,Discontinued Comet Lake CPU (Core i5-10600K); EOL.,2026-11-08
+CAND_CPU_072,cpu,Intel,Core i7-10700,BATCH_03_CPU,Discontinued Comet Lake CPU (Core i7-10700); EOL.,2026-11-08
+CAND_CPU_073,cpu,Intel,Core i7-10700F,BATCH_03_CPU,Discontinued Comet Lake CPU (Core i7-10700F); EOL.,2026-11-08
+CAND_CPU_075,cpu,Intel,Core i9-10850K,BATCH_03_CPU,Discontinued Comet Lake CPU (Core i9-10850K); EOL.,2026-11-08
+CAND_CPU_076,cpu,Intel,Core i9-10900,BATCH_03_CPU,Discontinued Comet Lake CPU (Core i9-10900); EOL.,2026-11-08
+CAND_CPU_081,cpu,Intel,Core i5-11500,BATCH_03_CPU,Discontinued Rocket Lake CPU (Core i5-11500); EOL LGA1200 socket.,2026-11-08
+CAND_CPU_083,cpu,Intel,Core i7-11700,BATCH_03_CPU,Discontinued Rocket Lake CPU (Core i7-11700); EOL LGA1200 socket.,2026-11-08
+CAND_CPU_086,cpu,Intel,Core i9-11900,BATCH_03_CPU,Discontinued Rocket Lake CPU (Core i9-11900); EOL LGA1200 socket.,2026-11-08
+CAND_CPU_087,cpu,Intel,Core i9-11900F,BATCH_03_CPU,Discontinued Rocket Lake CPU (Core i9-11900F); EOL LGA1200 socket.,2026-11-08
+CAND_CPU_088,cpu,Intel,Core i9-11900K,BATCH_03_CPU,Discontinued Rocket Lake CPU (Core i9-11900K); EOL LGA1200 socket.,2026-11-08
+CAND_CPU_114,cpu,Intel,Core Ultra 7 265F,BATCH_03_CPU,Unreleased OEM SKU (Core Ultra 7 265F); no Indian retail distribution.,2026-11-08
+CAND_CPU_115,cpu,Intel,Core Ultra 9 285,BATCH_03_CPU,Unreleased 65W SKU (Core Ultra 9 285); no Indian retail distribution.,2026-11-08
+CAND_CPU_116,cpu,Intel,Core i9-10980XE,BATCH_03_CPU,Discontinued Cascade Lake-X HEDT processor (Core i9-10980XE); EOL LGA2066 socket.,2026-11-08
+CAND_GPU_002,gpu,NVIDIA,GeForce GTX 970 4GB,BATCH_05_GPU,Legacy Maxwell GPU (GTX 970); EOL discontinued in Indian retail.,2026-11-08
+CAND_GPU_003,gpu,NVIDIA,GeForce GTX 980 4GB,BATCH_05_GPU,Legacy Maxwell GPU (GTX 980); EOL discontinued in Indian retail.,2026-11-08
+CAND_GPU_004,gpu,NVIDIA,GeForce GTX 980 Ti 6GB,BATCH_05_GPU,Legacy Maxwell GPU (GTX 980 Ti); EOL discontinued in Indian retail.,2026-11-08
+CAND_GPU_006,gpu,NVIDIA,GeForce GTX 1050 Ti 4GB,BATCH_05_GPU,Legacy Pascal GPU (GTX 1050 Ti); EOL discontinued in Indian retail.,2026-11-08
+CAND_GPU_007,gpu,NVIDIA,GeForce GTX 1060 3GB,BATCH_05_GPU,Legacy Pascal GPU (GTX 1060 3GB); EOL discontinued in Indian retail.,2026-11-08
+CAND_GPU_009,gpu,NVIDIA,GeForce GTX 1070 8GB,BATCH_05_GPU,Legacy Pascal GPU (GTX 1070 8GB); EOL discontinued in Indian retail.,2026-11-08
+CAND_GPU_011,gpu,NVIDIA,GeForce GTX 1080 8GB,BATCH_05_GPU,Legacy Pascal GPU (GTX 1080 8GB); EOL discontinued in Indian retail.,2026-11-08
+CAND_GPU_013,gpu,NVIDIA,NVIDIA TITAN Xp 12GB,BATCH_05_GPU,Legacy Pascal flagship (NVIDIA TITAN Xp); EOL discontinued.,2026-11-08
+CAND_GPU_015,gpu,NVIDIA,GeForce GTX 1650 SUPER 4GB,BATCH_05_GPU,Discontinued Turing GPU (GTX 1650 SUPER); out of production.,2026-11-08
+CAND_GPU_016,gpu,NVIDIA,GeForce GTX 1660 6GB,BATCH_05_GPU,Discontinued Turing GPU (GTX 1660 6GB); out of production.,2026-11-08
+CAND_GPU_018,gpu,NVIDIA,GeForce GTX 1660 Ti 6GB,BATCH_05_GPU,Discontinued Turing GPU (GTX 1660 Ti); out of production.,2026-11-08
+CAND_GPU_020,gpu,NVIDIA,GeForce RTX 2060 12GB,BATCH_05_GPU,Discontinued Turing GPU (RTX 2060 12GB); out of production.,2026-11-08
+CAND_GPU_024,gpu,NVIDIA,GeForce RTX 2080 8GB,BATCH_05_GPU,Discontinued Turing GPU (RTX 2080 8GB); out of production.,2026-11-08
+CAND_GPU_025,gpu,NVIDIA,GeForce RTX 2080 SUPER 8GB,BATCH_05_GPU,Discontinued Turing GPU (RTX 2080 SUPER); out of production.,2026-11-08
+CAND_GPU_028,gpu,NVIDIA,GeForce RTX 3070 Ti 8GB,BATCH_05_GPU,Discontinued Ampere GPU (RTX 3070 Ti); out of production.,2026-11-08
+CAND_GPU_029,gpu,NVIDIA,GeForce RTX 3080 10GB,BATCH_05_GPU,Discontinued Ampere GPU (RTX 3080 10GB); out of production.,2026-11-08
+CAND_GPU_031,gpu,NVIDIA,GeForce RTX 3080 Ti 12GB,BATCH_05_GPU,Discontinued Ampere GPU (RTX 3080 Ti 12GB); out of production.,2026-11-08
+CAND_GPU_032,gpu,NVIDIA,GeForce RTX 3090 24GB,BATCH_05_GPU,Discontinued Ampere GPU (RTX 3090 24GB); out of production.,2026-11-08
+CAND_GPU_033,gpu,NVIDIA,GeForce RTX 3090 Ti 24GB,BATCH_05_GPU,Discontinued Ampere GPU (RTX 3090 Ti 24GB); out of production.,2026-11-08
+CAND_GPU_040,gpu,AMD,Radeon RX 460 4GB,BATCH_05_GPU,Legacy Polaris GPU (RX 460 4GB); EOL discontinued.,2026-11-08
+CAND_GPU_042,gpu,AMD,Radeon RX 480 8GB,BATCH_05_GPU,Legacy Polaris GPU (RX 480 8GB); EOL discontinued.,2026-11-08
+CAND_GPU_043,gpu,AMD,Radeon RX 550 4GB,BATCH_05_GPU,Legacy Polaris GPU (RX 550 4GB); EOL discontinued.,2026-11-08
+CAND_GPU_044,gpu,AMD,Radeon RX 560 4GB,BATCH_06_GPU,Legacy Polaris GPU (RX 560 4GB); EOL discontinued.,2026-11-08
+CAND_GPU_045,gpu,AMD,Radeon RX 570 4GB,BATCH_06_GPU,Legacy Polaris GPU (RX 570 4GB); EOL discontinued.,2026-11-08
+CAND_GPU_047,gpu,AMD,Radeon RX 580 8GB,BATCH_06_GPU,Legacy Polaris GPU (RX 580 8GB); EOL discontinued.,2026-11-08
+CAND_GPU_049,gpu,AMD,Radeon RX Vega 56 8GB,BATCH_06_GPU,Legacy Vega GPU (RX Vega 56 8GB); EOL discontinued.,2026-11-08
+CAND_GPU_050,gpu,AMD,Radeon RX Vega 64 8GB,BATCH_06_GPU,Legacy Vega GPU (RX Vega 64 8GB); EOL discontinued.,2026-11-08
+CAND_GPU_051,gpu,AMD,Radeon VII 16GB,BATCH_06_GPU,Legacy Vega 20 GPU (Radeon VII 16GB); EOL discontinued.,2026-11-08
+CAND_GPU_052,gpu,AMD,Radeon RX 5500 XT 4GB,BATCH_06_GPU,Discontinued RDNA 1 GPU (RX 5500 XT 4GB); out of production.,2026-11-08
+CAND_GPU_054,gpu,AMD,Radeon RX 5600 XT 6GB,BATCH_06_GPU,Discontinued RDNA 1 GPU (RX 5600 XT 6GB); out of production.,2026-11-08
+CAND_GPU_055,gpu,AMD,Radeon RX 5700 8GB,BATCH_06_GPU,Discontinued RDNA 1 GPU (RX 5700 8GB); out of production.,2026-11-08
+CAND_GPU_056,gpu,AMD,Radeon RX 5700 XT 8GB,BATCH_06_GPU,Discontinued RDNA 1 GPU (RX 5700 XT 8GB); out of production.,2026-11-08
+CAND_GPU_061,gpu,AMD,Radeon RX 6800 16GB,BATCH_06_GPU,Discontinued RDNA 2 GPU (RX 6800 16GB); out of production.,2026-11-08
+CAND_GPU_062,gpu,AMD,Radeon RX 6800 XT 16GB,BATCH_06_GPU,Discontinued RDNA 2 GPU (RX 6800 XT 16GB); out of production.,2026-11-08
+CAND_GPU_075,gpu,Intel,Arc Pro A60 12GB,BATCH_06_GPU,Specialized workstation GPU (Arc Pro A60 12GB); no Indian retail distribution.,2026-11-08
+CAND_GPU_077,gpu,ASUS,TUF Gaming GeForce RTX 3070 Ti OC Edition 8GB,BATCH_06_GPU,Discontinued Ampere GPU (ASUS TUF RTX 3070 Ti); out of production.,2026-11-08
+CAND_GPU_087,gpu,MSI,GeForce RTX 4080 16GB SUPRIM X,BATCH_06_GPU,Discontinued Ada GPU (MSI RTX 4080 SUPRIM X); replaced by 4080 SUPER.,2026-11-08
+CAND_GPU_090,gpu,Gigabyte,GeForce RTX 3080 GAMING OC 10G,BATCH_06_GPU,Discontinued Ampere GPU (Gigabyte RTX 3080 GAMING OC); out of production.,2026-11-08
+CAND_GPU_091,gpu,Gigabyte,GeForce RTX 3080 Ti GAMING OC 12G,BATCH_06_GPU,Discontinued Ampere GPU (Gigabyte RTX 3080 Ti GAMING OC); out of production.,2026-11-08
+CAND_GPU_092,gpu,Gigabyte,GeForce RTX 3090 GAMING OC 24G,BATCH_06_GPU,Discontinued Ampere GPU (Gigabyte RTX 3090 GAMING OC); out of production.,2026-11-08
+CAND_GPU_099,gpu,Sapphire,Radeon RX 6800 XT PULSE 16GB,BATCH_07_GPU,Discontinued RDNA 2 GPU (Sapphire RX 6800 XT PULSE); out of production.,2026-11-08
+CAND_GPU_100,gpu,Sapphire,Radeon RX 6800 XT NITRO+ 16GB,BATCH_07_GPU,Discontinued RDNA 2 GPU (Sapphire RX 6800 XT NITRO+); out of production.,2026-11-08
+CAND_GPU_105,gpu,PowerColor,Hellhound Radeon RX 6700 XT 12GB,BATCH_07_GPU,Discontinued RDNA 2 GPU (PowerColor Hellhound RX 6700 XT); out of production.,2026-11-08
+CAND_GPU_110,gpu,XFX,Speedster SWFT 309 Radeon RX 6700 XT Core 12GB,BATCH_07_GPU,Discontinued RDNA 2 GPU (XFX Speedster SWFT 309 RX 6700 XT); out of production.,2026-11-08
+CAND_GPU_114,gpu,Zotac,GAMING GeForce RTX 3070 Ti AMP Holo 8GB,BATCH_07_GPU,Discontinued Ampere GPU (Zotac RTX 3070 Ti AMP Holo); out of production.,2026-11-08
+CAND_GPU_129,gpu,AMD,Radeon RX 570 4GB Pulse ITX,BATCH_07_GPU,Legacy Polaris GPU (RX 570 4GB Pulse ITX); EOL discontinued.,2026-11-08
+CAND_GPU_130,gpu,AMD,Radeon RX 580 4GB,BATCH_07_GPU,Legacy Polaris GPU (RX 580 4GB); EOL discontinued.,2026-11-08
+CAND_GPU_134,gpu,NVIDIA,GeForce RTX 3060 Ti Founders Edition 8GB,BATCH_07_GPU,Discontinued Ampere Founders Edition (RTX 3060 Ti FE); out of production.,2026-11-08
+CAND_GPU_138,gpu,NVIDIA,GeForce RTX 4070 Ti 12GB,BATCH_07_GPU,Discontinued Ada GPU (RTX 4070 Ti 12GB); superseded by 4070 Ti SUPER.,2026-11-08
+CAND_MB_005,motherboard,ASUS,ROG Strix B350-F Gaming,BATCH_09_MOTHERBOARD,Discontinued B350 board (ASUS ROG Strix B350-F Gaming); EOL.,2026-11-08
+CAND_MB_007,motherboard,Gigabyte,GA-AB350-Gaming 3,BATCH_09_MOTHERBOARD,Discontinued B350 board (Gigabyte GA-AB350-Gaming 3); EOL.,2026-11-08
+CAND_MB_008,motherboard,ASRock,AB350 Pro4,BATCH_09_MOTHERBOARD,Discontinued B350 board (ASRock AB350 Pro4); EOL.,2026-11-08
+CAND_MB_009,motherboard,ASUS,ROG Crosshair VI Hero,BATCH_09_MOTHERBOARD,Discontinued X370 flagship (ASUS ROG Crosshair VI Hero); EOL.,2026-11-08
+CAND_MB_011,motherboard,MSI,X370 GAMING PRO CARBON,BATCH_09_MOTHERBOARD,Discontinued X370 board (MSI X370 GAMING PRO CARBON); EOL.,2026-11-08
+CAND_MB_012,motherboard,Gigabyte,GA-AX370-Gaming K7,BATCH_09_MOTHERBOARD,Discontinued X370 board (Gigabyte GA-AX370-Gaming K7); EOL.,2026-11-08
+CAND_MB_018,motherboard,MSI,X470 GAMING PLUS MAX,BATCH_09_MOTHERBOARD,Discontinued X470 board (MSI X470 GAMING PLUS MAX); EOL.,2026-11-08
+CAND_MB_020,motherboard,Gigabyte,X470 AORUS Ultra Gaming,BATCH_09_MOTHERBOARD,Discontinued X470 board (Gigabyte X470 AORUS Ultra Gaming); EOL.,2026-11-08
+CAND_MB_027,motherboard,ASUS,Prime H310M-E R2.0,BATCH_09_MOTHERBOARD,Discontinued H310 board (ASUS Prime H310M-E R2.0); EOL LGA1151.,2026-11-08
+CAND_MB_028,motherboard,Gigabyte,H310M S2H 2.0,BATCH_09_MOTHERBOARD,Discontinued H310 board (Gigabyte H310M S2H 2.0); EOL LGA1151.,2026-11-08
+CAND_MB_029,motherboard,MSI,H310M PRO-VDH PLUS,BATCH_10_MOTHERBOARD,Discontinued H310 board (MSI H310M PRO-VDH PLUS); EOL LGA1151.,2026-11-08
+CAND_MB_033,motherboard,Gigabyte,B365M DS3H,BATCH_10_MOTHERBOARD,Discontinued B365 board (Gigabyte B365M DS3H); EOL LGA1151.,2026-11-08
+CAND_MB_034,motherboard,ASRock,B365 Phantom Gaming 4,BATCH_10_MOTHERBOARD,Discontinued B365 board (ASRock B365 Phantom Gaming 4); EOL LGA1151.,2026-11-08
+CAND_MB_035,motherboard,ASUS,ROG Maximus X Hero (Wi-Fi AC),BATCH_10_MOTHERBOARD,Discontinued Z370 flagship (ASUS ROG Maximus X Hero Wi-Fi AC); EOL LGA1151.,2026-11-08
+CAND_MB_036,motherboard,MSI,Z370 GAMING PRO CARBON,BATCH_10_MOTHERBOARD,Discontinued Z370 board (MSI Z370 GAMING PRO CARBON); EOL LGA1151.,2026-11-08
+CAND_MB_037,motherboard,Gigabyte,Z370 AORUS Gaming 7,BATCH_10_MOTHERBOARD,Discontinued Z370 board (Gigabyte Z370 AORUS Gaming 7); EOL LGA1151.,2026-11-08
+CAND_MB_041,motherboard,Gigabyte,H410M S2H V2,BATCH_10_MOTHERBOARD,Discontinued H410 board (Gigabyte H410M S2H V2); EOL LGA1200.,2026-11-08
+CAND_MB_042,motherboard,ASUS,TUF Gaming B460-PLUS,BATCH_10_MOTHERBOARD,Discontinued B460 board (ASUS TUF Gaming B460-PLUS); EOL LGA1200.,2026-11-08
+CAND_MB_044,motherboard,Gigabyte,B460 AORUS PRO AC,BATCH_10_MOTHERBOARD,Discontinued B460 board (Gigabyte B460 AORUS PRO AC); EOL LGA1200.,2026-11-08
+CAND_MB_045,motherboard,ASRock,B460 Steel Legend,BATCH_10_MOTHERBOARD,Discontinued B460 board (ASRock B460 Steel Legend); EOL LGA1200.,2026-11-08
+CAND_MB_047,motherboard,MSI,MAG Z490 TOMAHAWK,BATCH_10_MOTHERBOARD,Discontinued Z490 board (MSI MAG Z490 TOMAHAWK); EOL LGA1200.,2026-11-08
+CAND_MB_076,motherboard,ASUS,ROG Zenith II Extreme Alpha,BATCH_10_MOTHERBOARD,Discontinued sTRX4 workstation flagship (ASUS ROG Zenith II Extreme Alpha); EOL.,2026-11-08
+CAND_MB_080,motherboard,ASUS,ROG Rampage VI Extreme Encore,BATCH_10_MOTHERBOARD,Discontinued LGA2066 HEDT board (ASUS ROG Rampage VI Extreme Encore); EOL.,2026-11-08
+CAND_RAM_001,ram,Kingston,HyperX Fury 8GB (1x8GB) DDR3-1600 CL10 Blue,BATCH_11_RAM,Legacy DDR3 memory (Kingston HyperX Fury 8GB DDR3-1600); discontinued EOL.,2026-11-08
+CAND_RAM_002,ram,Kingston,HyperX Fury 16GB (2x8GB) DDR3-1866 CL10 Red,BATCH_11_RAM,Legacy DDR3 memory (Kingston HyperX Fury 16GB DDR3-1866); discontinued EOL.,2026-11-08
+CAND_RAM_004,ram,Corsair,Vengeance 16GB (2x8GB) DDR3-1600 CL9 Black,BATCH_11_RAM,Legacy DDR3 memory (Corsair Vengeance 16GB DDR3-1600); discontinued EOL.,2026-11-08
+CAND_RAM_005,ram,Corsair,Vengeance Pro 16GB (2x8GB) DDR3-2400 CL11 Silver,BATCH_11_RAM,Legacy DDR3 memory (Corsair Vengeance Pro 16GB DDR3-2400); discontinued EOL.,2026-11-08
+CAND_RAM_006,ram,Corsair,Vengeance LP 16GB (2x8GB) DDR3-1600 CL9 Low Profile,BATCH_11_RAM,Legacy DDR3 memory (Corsair Vengeance LP 16GB DDR3-1600); discontinued EOL.,2026-11-08
+CAND_RAM_009,ram,G.Skill,Trident X 16GB (2x8GB) DDR3-2400 CL10,BATCH_11_RAM,Legacy DDR3 memory (G.Skill Trident X 16GB DDR3-2400); discontinued EOL.,2026-11-08
+CAND_RAM_010,ram,G.Skill,Ripjaws Z 32GB (4x8GB) DDR3-1866 CL10,BATCH_11_RAM,Legacy DDR3 memory (G.Skill Ripjaws Z 32GB DDR3-1866); discontinued EOL.,2026-11-08
+CAND_RAM_011,ram,Crucial,Ballistix Sport 8GB (1x8GB) DDR3-1600 CL9,BATCH_11_RAM,Legacy DDR3 memory (Crucial Ballistix Sport 8GB DDR3-1600); discontinued EOL.,2026-11-08
+CAND_RAM_013,ram,Patriot,Viper 3 8GB (2x4GB) DDR3-1600 CL9 Black Mamba,BATCH_12_RAM,Legacy DDR3 memory (Patriot Viper 3 8GB DDR3-1600); discontinued EOL.,2026-11-08
+CAND_RAM_014,ram,Patriot,Viper 3 16GB (2x8GB) DDR3-1866 CL10 Red,BATCH_12_RAM,Legacy DDR3 memory (Patriot Viper 3 16GB DDR3-1866); discontinued EOL.,2026-11-08
+CAND_RAM_015,ram,TeamGroup,Elite 8GB (1x8GB) DDR3-1333 CL9 Value RAM,BATCH_12_RAM,Legacy DDR3 memory (TeamGroup Elite 8GB DDR3-1333); discontinued EOL.,2026-11-08
+CAND_STORAGE_062,storage,SK hynix,Platinum P41 500GB PCIe Gen4 NVMe M.2 SSD,BATCH_15_STORAGE,SK hynix brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_STORAGE_063,storage,SK hynix,Platinum P41 1TB PCIe Gen4 NVMe M.2 SSD,BATCH_15_STORAGE,SK hynix brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_STORAGE_068,storage,Sabrent,Rocket 4 Plus 1TB PCIe Gen4 NVMe M.2 SSD,BATCH_15_STORAGE,Sabrent brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_STORAGE_069,storage,Sabrent,Rocket 4 Plus 2TB PCIe Gen4 NVMe M.2 SSD,BATCH_15_STORAGE,Sabrent brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_STORAGE_070,storage,Sabrent,Rocket 4 Plus 4TB PCIe Gen4 NVMe M.2 SSD,BATCH_15_STORAGE,Sabrent brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_STORAGE_085,storage,Sabrent,Rocket 5 1TB PCIe Gen5 NVMe M.2 SSD,BATCH_15_STORAGE,Sabrent brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_PSU_058,psu,Super Flower,Leadex III Gold 850W 80 Plus Gold Fully Modular Power Supply,BATCH_17_PSU,Super Flower brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_PSU_059,psu,Super Flower,Leadex VII PRO Platinum 1000W ATX 3.1 Fully Modular Power Supply,BATCH_17_PSU,Super Flower brand not officially distributed in Indian retail channels.,2026-11-08
+CAND_CASE_005,case,FormD,T1 V2.1 Sandwich,BATCH_18_CASE,Boutique SFF case (FormD T1 V2.1 Sandwich) without official Indian retail distribution.,2026-11-08
+CAND_CASE_067,case,Cooler Master,MasterCase H500M,BATCH_18_CASE,Discontinued legacy full-tower case (Cooler Master MasterCase H500M); out of production.,2026-11-08
+CAND_COOLER_007,cooler,ID-Cooling,IS-47-XT,BATCH_19_COOLER,ID-Cooling brand lacks official Indian retail distribution.,2026-11-08
+CAND_COOLER_024,cooler,Scythe,Kotetsu Mark 3,BATCH_19_COOLER,Scythe brand lacks official Indian retail distribution.,2026-11-08
+CAND_COOLER_039,cooler,Scythe,Fuma 3,BATCH_19_COOLER,Scythe brand lacks official Indian retail distribution.,2026-11-08

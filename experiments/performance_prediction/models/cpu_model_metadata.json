@@ -1,0 +1,101 @@
+{
+  "model_id": "buildwise_cpu_perf_regressor_v1",
+  "device_type": "CPU",
+  "task": "CPU Empirical Benchmark Regression",
+  "target_variable": "cinebench_r23_multi_core_score",
+  "selected_algorithm": "Ridge Regression (alpha=10.0)",
+  "hyperparameters": {
+    "alpha": 10.0,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": null,
+    "positive": false,
+    "random_state": 42,
+    "solver": "auto",
+    "tol": 0.0001
+  },
+  "features": {
+    "numeric_features": [
+      "cores",
+      "threads",
+      "boost_clock_ghz",
+      "base_clock_ghz",
+      "tdp_w"
+    ],
+    "categorical_features": [
+      "brand",
+      "socket",
+      "ram_type"
+    ],
+    "total_features": 8,
+    "feature_list": [
+      "cores",
+      "threads",
+      "boost_clock_ghz",
+      "base_clock_ghz",
+      "tdp_w",
+      "brand",
+      "socket",
+      "ram_type"
+    ]
+  },
+  "dataset": {
+    "source_file": "cpu_training_dataset.csv",
+    "sample_count": 180,
+    "group_column": "group_id",
+    "group_count": 10,
+    "groups": [
+      "amd_am4",
+      "amd_am5",
+      "amd_str4",
+      "amd_str5",
+      "amd_strx4",
+      "intel_lga1151",
+      "intel_lga1200",
+      "intel_lga1700",
+      "intel_lga1851",
+      "intel_lga2066"
+    ],
+    "sha256": "bac4890456be096863017d79d1079c42d7e8083356f8025121b121b7574d709e"
+  },
+  "validation_strategy": {
+    "cross_validation": "GroupKFold",
+    "cv_splits": 5,
+    "holdout_method": "GroupShuffleSplit",
+    "holdout_test_size": 0.2,
+    "holdout_random_state": 42
+  },
+  "metrics": {
+    "cv": {
+      "mae_mean": 2420.4484797110917,
+      "mae_std": 871.8048721759377,
+      "rmse_mean": 3203.413970351602,
+      "rmse_std": 1136.875558249783,
+      "r2_mean": 0.9170386793238261,
+      "r2_std": 0.049629121709490895
+    },
+    "holdout": {
+      "train_samples": 143,
+      "test_samples": 37,
+      "test_groups": [
+        "amd_am5",
+        "intel_lga1851"
+      ],
+      "mae": 4153.779201965358,
+      "rmse": 5276.428524642832,
+      "r2": 0.7503965303772027
+    }
+  },
+  "artifacts": {
+    "pipeline_file": "best_cpu_pipeline.joblib",
+    "pipeline_sha256": "46a757c8bf66b023a67c4247fac1b9885fbdf2670c55b7505deebdb59a6d036a",
+    "file_size_bytes": 4594
+  },
+  "environment": {
+    "scikit_learn_version": "1.9.1",
+    "joblib_version": "1.6.0",
+    "pandas_version": "3.0.6",
+    "numpy_version": "2.4.6",
+    "trained_at_utc": "2026-11-08T14:27:16.475770+00:00"
+  }
+}

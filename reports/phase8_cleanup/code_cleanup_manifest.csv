@@ -1,0 +1,8 @@
+file_path,symbol_name,symbol_type,reason,is_used_elsewhere,dependencies_and_references,safety_assessment,action_taken
+app.py,PURPOSE_LAYOUT,variable,Exclusively used by retired exhaustive recommender to order DFS categories,No,None,Safe to remove,removed
+app.py,_check_candidate_compatibility,function,Exclusively used by build_recommendation to accumulate DFS combination scores,No,calls src.compatibility functions,Safe to remove (core rules in src.compatibility preserved),removed
+app.py,build_recommendation,function,Legacy unpruned recursive DFS PC combination generator; causes combinatorial explosion on expanded catalog,No,called only by obsolete Streamlit form,Safe to remove,removed
+app.py,budget_recommendation_form,ui_block,Legacy Streamlit form that triggered exhaustive search and rendered complete build tables,No,triggers build_recommendation,Safe to replace with temporary catalog browser,replaced
+tests/test_recommendation.py,RecommendationTests,test_class,Exclusively tests retired exhaustive recommendation engine via AppTest,No,tests legacy app.py build_recommendation,Replaced with modern catalog browser and utility tests,replaced
+tests/test_performance_tier.py,test_prepares_catalog_without_identifier_features,test_method,Contained hardcoded 30-CPU baseline assertion; updated to dynamic dataset length,Yes,evaluates experiments/performance_tier/train.py,Safe to update to dynamic assertions,updated
+tests/test_performance_tier.py,test_evaluation_reports_holdout_record_and_grouped_cv,test_method,Contained hardcoded 21-train split assertion; updated to dynamic split calculation,Yes,evaluates experiments/performance_tier/train.py,Safe to update to dynamic assertions,updated

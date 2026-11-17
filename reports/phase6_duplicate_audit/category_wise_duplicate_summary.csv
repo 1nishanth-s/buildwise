@@ -1,0 +1,10 @@
+category,production_count,original_candidates,exact_duplicates,same_product_aliases,legitimate_variants_identified,ambiguous_held,phase5_rejected,accepted_candidates,projected_production_total
+case,33,67,0,0,18,0,0,67,100
+cooler,23,77,0,0,22,0,0,77,100
+cpu,64,116,0,0,35,0,14,116,180
+gpu,75,145,0,0,52,2,0,143,218
+motherboard,95,85,0,0,40,0,24,85,180
+psu,37,83,0,0,25,0,0,83,120
+ram,49,111,0,0,38,0,1,111,160
+storage,45,105,0,0,32,0,0,105,150
+TOTAL,421,789,0,0,262,2,39,787,1208

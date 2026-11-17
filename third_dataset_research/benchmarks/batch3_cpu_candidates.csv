@@ -1,0 +1,11 @@
+benchmark_id,component_id,category,benchmark_suite,benchmark_metric,score,score_unit,source_name,source_url,verified_date,test_configuration
+BM_CPU_023,DS3_CPU_022,cpu,Cinebench R23,Multi-Core Score,16074,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i5_14400f,2026-11-06,"Stock power limits (65W base / 148W max turbo), DDR5-4800"
+BM_CPU_024,DS3_CPU_024,cpu,Cinebench R23,Multi-Core Score,14072,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_7500f,2026-11-06,"Stock 65W TDP, DDR5-5200"
+BM_CPU_025,DS3_CPU_025,cpu,Cinebench R23,Multi-Core Score,15036,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_5800xt,2026-11-06,"Stock 105W TDP envelope, DDR4-3200 dual-channel"
+BM_CPU_026,DS3_CPU_027,cpu,Cinebench R23,Multi-Core Score,22812,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i7_12700k,2026-11-06,"Stock settings (125W base / 190W max turbo), DDR5-4800"
+BM_CPU_027,DS3_CPU_028,cpu,Cinebench R23,Multi-Core Score,13463,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_7600x3d,2026-11-06,"Stock 65W TDP, DDR5-5200"
+BM_CPU_028,DS3_CPU_030,cpu,Cinebench R23,Multi-Core Score,19540,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_7700,2026-11-06,"Stock 65W TDP, DDR5-5200"
+BM_CPU_029,DS3_CPU_031,cpu,Cinebench R23,Multi-Core Score,15890,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i5_13400f,2026-11-06,"Stock power limits (65W base / 148W max turbo), DDR5-4800"
+BM_CPU_030,DS3_CPU_033,cpu,Cinebench R23,Multi-Core Score,22812,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i7_12700kf,2026-11-06,"Stock settings (125W base / 190W max turbo), DDR5-4800"
+BM_CPU_031,DS3_CPU_035,cpu,Cinebench R23,Multi-Core Score,17660,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i5_12600kf,2026-11-06,"Stock settings (125W base / 150W max turbo), DDR5-4800"
+

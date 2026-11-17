@@ -1,0 +1,36 @@
+system_benchmark_id,cpu_model,gpu_model,ram_configuration,benchmark_suite,resolution_and_settings,average_performance,one_percent_low,unit,source_name,source_url,verified_date
+SYS_BM_001,AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4090,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ultra (No RT),148.5,118.2,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_002,AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4090,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ray Tracing Ultra,88.4,69.1,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_003,AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4080 SUPER,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ultra (No RT),121.2,97.4,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_004,AMD Ryzen 7 7800X3D,AMD Radeon RX 7900 XTX,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ultra (No RT),128.7,102.5,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_005,AMD Ryzen 7 7800X3D,AMD Radeon RX 7900 XTX,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ray Tracing Ultra,54.8,42.1,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_006,Intel Core i7-14700K,NVIDIA GeForce RTX 4070 Ti SUPER,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ultra (No RT),105.4,84.6,FPS,TechPowerUp,https://techpowerup.com,2026-11-07
+SYS_BM_007,Intel Core i7-14700K,NVIDIA GeForce RTX 4070 SUPER,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ultra (No RT),94.2,75.3,FPS,TechPowerUp,https://techpowerup.com,2026-11-07
+SYS_BM_008,AMD Ryzen 5 7600X,AMD Radeon RX 7800 XT,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ultra (No RT),89.5,71.8,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_009,AMD Ryzen 5 7600X,AMD Radeon RX 7700 XT,32GB DDR5-6000 CL30,Cyberpunk 2077 (v2.1),1440p Ultra (No RT),74.3,59.4,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_010,AMD Ryzen 5 5600X,NVIDIA GeForce RTX 3060 12GB,16GB DDR4-3600 CL16,Cyberpunk 2077 (v2.1),1080p Ultra (No RT),58.2,46.5,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_011,Intel Core i5-12400F,AMD Radeon RX 6600 8GB,16GB DDR4-3200 CL16,Cyberpunk 2077 (v2.1),1080p Ultra (No RT),52.6,41.2,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_012,Intel Core i5-13400F,NVIDIA GeForce RTX 4060 8GB,32GB DDR5-5600 CL36,Cyberpunk 2077 (v2.1),1080p Ultra (No RT),72.4,58.1,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_013,AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4090,32GB DDR5-6000 CL30,Shadow of the Tomb Raider,1440p Highest,285.0,215.0,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_014,Intel Core i9-14900K,NVIDIA GeForce RTX 4090,32GB DDR5-6000 CL30,Shadow of the Tomb Raider,1440p Highest,274.0,198.0,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_015,AMD Ryzen 7 7800X3D,AMD Radeon RX 7900 XTX,32GB DDR5-6000 CL30,Shadow of the Tomb Raider,1440p Highest,242.0,185.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_016,Intel Core i7-14700K,NVIDIA GeForce RTX 4070 Ti SUPER,32GB DDR5-6000 CL30,Shadow of the Tomb Raider,1440p Highest,198.0,154.0,FPS,TechPowerUp,https://techpowerup.com,2026-11-07
+SYS_BM_017,AMD Ryzen 5 7600,AMD Radeon RX 7800 XT,32GB DDR5-6000 CL30,Shadow of the Tomb Raider,1440p Highest,168.0,132.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_018,AMD Ryzen 5 5600,NVIDIA GeForce RTX 3070,16GB DDR4-3600 CL16,Shadow of the Tomb Raider,1440p Highest,125.0,96.0,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_019,Intel Core i5-12400F,NVIDIA GeForce RTX 3060 Ti,16GB DDR4-3200 CL16,Shadow of the Tomb Raider,1440p Highest,112.0,88.0,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_020,AMD Ryzen 5 3600,AMD Radeon RX 5700 XT,16GB DDR4-3200 CL16,Shadow of the Tomb Raider,1080p Highest,108.0,84.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_021,AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4080 SUPER,32GB DDR5-6000 CL30,F1 23,1440p Ultra High,178.0,142.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_022,AMD Ryzen 7 7800X3D,AMD Radeon RX 7900 XT,32GB DDR5-6000 CL30,F1 23,1440p Ultra High,172.0,138.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_023,Intel Core i5-13600K,NVIDIA GeForce RTX 4070 SUPER,32GB DDR5-5600 CL36,F1 23,1440p Ultra High,144.0,116.0,FPS,TechPowerUp,https://techpowerup.com,2026-11-07
+SYS_BM_024,AMD Ryzen 5 7600X,AMD Radeon RX 7700 XT,32GB DDR5-6000 CL30,F1 23,1440p Ultra High,126.0,101.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_025,Intel Core i5-12400,Intel Arc A770 16GB,32GB DDR4-3200 CL16,F1 23,1080p Ultra High,92.0,74.0,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_026,AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4090,32GB DDR5-6000 CL30,Red Dead Redemption 2,1440p Favor Quality,174.0,139.0,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_027,Intel Core i7-14700K,NVIDIA GeForce RTX 4080,32GB DDR5-6000 CL30,Red Dead Redemption 2,1440p Favor Quality,146.0,118.0,FPS,TechPowerUp,https://techpowerup.com,2026-11-07
+SYS_BM_028,AMD Ryzen 5 7600X,AMD Radeon RX 7800 XT,32GB DDR5-6000 CL30,Red Dead Redemption 2,1440p Favor Quality,112.0,89.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_029,AMD Ryzen 5 5600X,NVIDIA GeForce RTX 3060 Ti,16GB DDR4-3600 CL16,Red Dead Redemption 2,1080p Favor Quality,88.0,71.0,FPS,Gamers Nexus,https://gamersnexus.net,2026-11-07
+SYS_BM_030,Intel Core i3-12100F,AMD Radeon RX 6600,16GB DDR4-3200 CL16,Red Dead Redemption 2,1080p Favor Quality,68.0,54.0,FPS,Hardware Unboxed,https://youtube.com/hardwareunboxed,2026-11-07
+SYS_BM_031,AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4090,32GB DDR5-6000 CL30,3DMark Time Spy,Overall Score (1440p),31450.0,0.0,pts,UL 3DMark Official Hall of Fame,https://benchmarks.ul.com,2026-11-07
+SYS_BM_032,Intel Core i9-14900K,NVIDIA GeForce RTX 4090,32GB DDR5-6000 CL30,3DMark Time Spy,Overall Score (1440p),33280.0,0.0,pts,UL 3DMark Official Hall of Fame,https://benchmarks.ul.com,2026-11-07
+SYS_BM_033,AMD Ryzen 7 7800X3D,AMD Radeon RX 7900 XTX,32GB DDR5-6000 CL30,3DMark Time Spy,Overall Score (1440p),26850.0,0.0,pts,UL 3DMark Official Hall of Fame,https://benchmarks.ul.com,2026-11-07
+SYS_BM_034,AMD Ryzen 5 7600X,NVIDIA GeForce RTX 4070 SUPER,32GB DDR5-6000 CL30,3DMark Time Spy,Overall Score (1440p),18950.0,0.0,pts,UL 3DMark Official Hall of Fame,https://benchmarks.ul.com,2026-11-07
+SYS_BM_035,Intel Core i5-12400F,NVIDIA GeForce RTX 3060 12GB,16GB DDR4-3200 CL16,3DMark Time Spy,Overall Score (1440p),8850.0,0.0,pts,UL 3DMark Official Hall of Fame,https://benchmarks.ul.com,2026-11-07

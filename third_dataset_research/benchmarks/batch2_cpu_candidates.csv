@@ -1,0 +1,12 @@
+benchmark_id,component_id,category,benchmark_suite,benchmark_metric,score,score_unit,source_name,source_url,verified_date,test_configuration
+BM_CPU_013,cpu-i5-14600k,cpu,Cinebench R23,Multi-Core Score,24683,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i5_14600k,2026-11-06,"Stock settings, 181W turbo envelope, DDR5-5600"
+BM_CPU_014,cpu-intel-core-ultra-5-245kf,cpu,Cinebench R23,Multi-Core Score,25188,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_ultra_5_245kf,2026-11-06,"Stock settings, 159W turbo envelope, DDR5-6400"
+BM_CPU_015,cpu-intel-core-i7-14700k,cpu,Cinebench R23,Multi-Core Score,36245,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i7_14700k,2026-11-06,"Stock settings, 253W turbo envelope, DDR5-5600"
+BM_CPU_016,cpu-intel-core-i7-14700kf,cpu,Cinebench R23,Multi-Core Score,36245,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i7_14700kf,2026-11-06,"Stock settings, 253W turbo envelope, DDR5-5600"
+BM_CPU_017,amd-ryzen-5-7600,cpu,Cinebench R23,Multi-Core Score,14540,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_7600,2026-11-06,"Stock 65W TDP, DDR5-5200"
+BM_CPU_018,amd-ryzen-7-8700g,cpu,Cinebench R23,Multi-Core Score,18040,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_8700g,2026-11-06,"Stock 65W TDP, DDR5-5200"
+BM_CPU_019,amd-ryzen-5-8600g,cpu,Cinebench R23,Multi-Core Score,14067,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_5_8600g,2026-11-06,"Stock 65W TDP, DDR5-5200"
+BM_CPU_020,DS3_CPU_011,cpu,Cinebench R23,Multi-Core Score,15228,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_5800x,2026-11-06,"Stock 105W TDP envelope, DDR4-3200 dual-channel"
+BM_CPU_021,DS3_CPU_016,cpu,Cinebench R23,Multi-Core Score,14309,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_5700x,2026-11-06,"Stock 65W TDP, DDR4-3200 dual-channel"
+BM_CPU_022,DS3_CPU_021,cpu,Cinebench R23,Multi-Core Score,13786,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-amd_ryzen_7_5700x3d,2026-11-06,"Stock 105W TDP envelope, DDR4-3200 dual-channel"
+

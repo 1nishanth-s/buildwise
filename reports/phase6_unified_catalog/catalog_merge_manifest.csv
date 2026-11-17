@@ -1,0 +1,6 @@
+source_dataset,entity_type,baseline_count,addition_count,held_count,final_count,enrichment_applied,target_destination,import_readiness
+data/components.csv,production_baseline,421,0,0,421,239,unified_component_catalog.csv,READY
+reports/phase6_duplicate_audit/cleaned_component_candidates.csv,candidate_expansion,0,787,0,787,0,unified_component_catalog.csv,READY
+candidates/staged_enrichment.csv,spec_enrichment_backfill,0,0,0,239,239,unified_component_catalog.csv,APPLIED_IN_PLACE
+candidates/staged_batch2_gpu.csv,held_candidates,0,0,2,2,0,QUARANTINED_IN_STAGING,HELD
+TOTAL_CATALOG,canonical_hardware_catalog,421,787,2,1208,239,unified_component_catalog.csv,VERIFIED_STAGED

@@ -1,0 +1,25 @@
+candidate_model,category,brand,rejection_reason,verified_alternative,evidence_source
+TUF Gaming X570-Plus (Wi-Fi),motherboard,ASUS,Omitted in favor of flagship AM4 boards to satisfy exact 85 quota.,Prime A320M-K,https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus-wi-fi/
+MAG X570 TOMAHAWK WIFI,motherboard,MSI,Omitted in favor of flagship AM4 boards to satisfy exact 85 quota.,Prime A320M-K,https://www.msi.com/Motherboard/MAG-X570-TOMAHAWK-WIFI
+X570 AORUS Elite WiFi,motherboard,Gigabyte,Omitted in favor of flagship AM4 boards to satisfy exact 85 quota.,Prime A320M-K,https://www.gigabyte.com/Motherboard/X570-AORUS-ELITE-WIFI-rev-1x
+X570 Taichi,motherboard,ASRock,Omitted in favor of flagship AM4 boards to satisfy exact 85 quota.,Prime A320M-K,https://www.asrock.com/mb/AMD/X570%20Taichi/
+MAG Z390 TOMAHAWK,motherboard,MSI,Omitted secondary LGA1151 SKU to satisfy exact 85 quota.,Prime H310M-E R2.0,https://www.msi.com/Motherboard/MAG-Z390-TOMAHAWK
+Z390 AORUS PRO Wi-Fi,motherboard,Gigabyte,Omitted secondary LGA1151 SKU to satisfy exact 85 quota.,Prime H310M-E R2.0,https://www.gigabyte.com/Motherboard/Z390-AORUS-PRO-WIFI-rev-10
+Z390 Taichi,motherboard,ASRock,Omitted secondary LGA1151 SKU to satisfy exact 85 quota.,Prime H310M-E R2.0,https://www.asrock.com/mb/Intel/Z390%20Taichi/
+MAG B560 TOMAHAWK WIFI,motherboard,MSI,Omitted secondary LGA1200 SKU to satisfy exact 85 quota.,Prime H410M-E,https://www.msi.com/Motherboard/MAG-B560-TOMAHAWK-WIFI
+B560 AORUS PRO AX,motherboard,Gigabyte,Omitted secondary LGA1200 SKU to satisfy exact 85 quota.,Prime H410M-E,https://www.gigabyte.com/Motherboard/B560-AORUS-PRO-AX-rev-10
+ROG Maximus XIII Hero,motherboard,ASUS,Omitted secondary LGA1200 SKU to satisfy exact 85 quota.,Prime H410M-E,https://rog.asus.com/motherboards/rog-maximus/rog-maximus-xiii-hero-model/
+MAG Z590 TOMAHAWK WIFI,motherboard,MSI,Omitted secondary LGA1200 SKU to satisfy exact 85 quota.,Prime H410M-E,https://www.msi.com/Motherboard/MAG-Z590-TOMAHAWK-WIFI
+Z790 AORUS Master X,motherboard,Gigabyte,Omitted secondary LGA1700 SKU to satisfy exact 85 quota.,TUF Gaming B660-PLUS WIFI D4,https://www.gigabyte.com/Motherboard/Z790-AORUS-MASTER-X
+Z790 Taichi,motherboard,ASRock,Omitted secondary LGA1700 SKU to satisfy exact 85 quota.,TUF Gaming B660-PLUS WIFI D4,https://www.asrock.com/mb/Intel/Z790%20Taichi/
+ROG Strix Z790-A Gaming WiFi II,motherboard,ASUS,Omitted secondary LGA1700 SKU to satisfy exact 85 quota.,TUF Gaming B660-PLUS WIFI D4,https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-a-gaming-wifi-ii-model/
+PRO Z790-P WIFI,motherboard,MSI,Omitted secondary LGA1700 SKU to satisfy exact 85 quota.,TUF Gaming B660-PLUS WIFI D4,https://www.msi.com/Motherboard/PRO-Z790-P-WIFI
+Z790 GAMING X AX,motherboard,Gigabyte,Omitted secondary LGA1700 SKU to satisfy exact 85 quota.,TUF Gaming B660-PLUS WIFI D4,https://www.gigabyte.com/Motherboard/Z790-GAMING-X-AX-rev-1x
+Z890 Nova WiFi,motherboard,ASRock,Omitted secondary LGA1851 SKU to satisfy exact 85 quota.,ROG Maximus Z890 Hero,https://www.asrock.com/mb/Intel/Z890%20Nova%20WiFi/
+TUF Gaming B860-PLUS WIFI,motherboard,ASUS,Omitted secondary LGA1851 SKU to satisfy exact 85 quota.,ROG Maximus Z890 Hero,https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b860-plus-wifi/
+Prime B860M-A WIFI,motherboard,ASUS,Omitted secondary LGA1851 SKU to satisfy exact 85 quota.,ROG Maximus Z890 Hero,https://www.asus.com/motherboards-components/motherboards/prime/prime-b860m-a-wifi/
+MAG B860 TOMAHAWK WIFI,motherboard,MSI,Omitted secondary LGA1851 SKU to satisfy exact 85 quota.,ROG Maximus Z890 Hero,https://www.msi.com/Motherboard/MAG-B860-TOMAHAWK-WIFI
+B860M GAMING PLUS WIFI,motherboard,MSI,Omitted secondary LGA1851 SKU to satisfy exact 85 quota.,ROG Maximus Z890 Hero,https://www.msi.com/Motherboard/B860M-GAMING-PLUS-WIFI
+B860 AORUS Elite AX,motherboard,Gigabyte,Omitted secondary LGA1851 SKU to satisfy exact 85 quota.,ROG Maximus Z890 Hero,https://www.gigabyte.com/Motherboard/B860-AORUS-ELITE-AX
+Creator X299,motherboard,MSI,Omitted redundant HEDT board to satisfy exact 85 quota.,ROG Zenith II Extreme Alpha,https://www.msi.com/Motherboard/Creator-X299
+MPG Z790I EDGE WIFI,motherboard,MSI,Omitted redundant ITX board to satisfy exact 85 quota.,ROG Strix B550-I Gaming,https://www.msi.com/Motherboard/MPG-Z790I-EDGE-WIFI

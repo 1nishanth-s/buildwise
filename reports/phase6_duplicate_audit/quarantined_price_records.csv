@@ -1,0 +1,2 @@
+price_id,component_id,seller,price_inr,source_url,checked_at,availability,price_type,provenance
+PRICE_198,CAND_GPU_143,Vedant Computers,8290.0,https://www.vedantcomputers.com/products/radeon-rx-9070-xt-16gb-reference,2026-11-07,available,seller_observation,Observed retail listing on Vedant Computers storefront (SKU: AMD-Radeon-RX-90; verified INR price inclusive of 18% GST)

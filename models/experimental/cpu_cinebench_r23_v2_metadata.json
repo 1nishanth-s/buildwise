@@ -1,0 +1,67 @@
+{
+  "model_name": "CPU Cinebench R23 Multi-Core Predictor V2 (Enriched Ridge)",
+  "model_version": "v2",
+  "model_type": "Pipeline(StandardScaler + OneHotEncoder + Ridge(alpha=1.0))",
+  "algorithm": "ridge",
+  "status": "EXPERIMENTAL",
+  "target_variable": "score",
+  "target_unit": "Cinebench R23 Multi-Core points (pts)",
+  "feature_set": "Set_E_Comprehensive",
+  "feature_set_description": "Original 6 features + architecture + cache_l3_mb + cache_l2_mb + base_clock_ghz",
+  "predictive_features": [
+    "cores",
+    "threads",
+    "boost_clock_ghz",
+    "tdp_w",
+    "cache_l3_mb",
+    "cache_l2_mb",
+    "base_clock_ghz",
+    "brand",
+    "socket",
+    "architecture"
+  ],
+  "numeric_features": [
+    "cores",
+    "threads",
+    "boost_clock_ghz",
+    "tdp_w",
+    "cache_l3_mb",
+    "cache_l2_mb",
+    "base_clock_ghz"
+  ],
+  "categorical_features": [
+    "brand",
+    "socket",
+    "architecture"
+  ],
+  "training_samples_count": 55,
+  "silicon_family_groups_count": 30,
+  "validation_strategy": "5-fold GroupKFold by verified silicon die family",
+  "leakage_prevention": "Strict zero-overlap group splitting with preprocessing inside folds",
+  "evaluation_metrics": {
+    "dummy_baseline": {
+      "mae": 8739.2,
+      "rmse": 10167.7,
+      "r2": -0.0501
+    },
+    "v1_ridge_baseline": {
+      "mae": 1483.7,
+      "rmse": 1939.3,
+      "r2": 0.9618
+    },
+    "v2_enriched_model": {
+      "mean_fold_mae": 1125.7,
+      "std_fold_mae": 412.8,
+      "mean_fold_rmse": 1401.6,
+      "std_fold_rmse": 490.1,
+      "mean_fold_r2": 0.976,
+      "std_fold_r2": 0.0086,
+      "aggregated_oof_mae": 1125.7,
+      "aggregated_oof_rmse": 1484.8,
+      "aggregated_oof_r2": 0.9776,
+      "mae_reduction_vs_v1_pct": 24.13,
+      "mae_reduction_vs_dummy_pct": 87.12
+    }
+  },
+  "disclaimer": "EXPERIMENTAL ONLY: Trained on 55 desktop CPU observations across 30 silicon families. Do not deploy to production recommendation logic without broader sample coverage."
+}

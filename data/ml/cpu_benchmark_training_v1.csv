@@ -1,0 +1,56 @@
+component_id,benchmark_id,brand,model,socket,cores,threads,boost_clock_ghz,tdp_w,group_id,score
+cpu-r5-9600x,BM_CPU_001,AMD,Ryzen 5 9600X,AM5,6,12,5.4,65.0,amd_zen5_granite_ridge_r5,17689.0
+cpu-r7-9700x,BM_CPU_002,AMD,Ryzen 7 9700X,AM5,8,16,5.5,65.0,amd_zen5_granite_ridge_r7,23127.0
+cpu-r7-9800x3d,BM_CPU_003,AMD,Ryzen 7 9800X3D,AM5,8,16,5.2,120.0,amd_zen5_granite_ridge_r7,22986.0
+amd-ryzen-7-7800x3d,BM_CPU_004,AMD,Ryzen 7 7800X3D,AM5,8,16,5.0,120.0,amd_zen4_raphael_r7,17762.0
+amd-ryzen-7-7700x,BM_CPU_005,AMD,Ryzen 7 7700X,AM5,8,16,5.4,105.0,amd_zen4_raphael_r7,20399.0
+amd-ryzen-5-7600x,BM_CPU_006,AMD,Ryzen 5 7600X,AM5,6,12,5.3,105.0,amd_zen4_raphael_r5,15315.0
+DS3_CPU_007,BM_CPU_007,AMD,Ryzen 5 5500,AM4,6,12,4.2,65.0,amd_zen3_cezanne,10940.0
+DS3_CPU_009,BM_CPU_008,AMD,Ryzen 5 5600X,AM4,6,12,4.6,65.0,amd_zen3_vermeer_r5,10988.0
+DS3_CPU_010,BM_CPU_009,AMD,Ryzen 5 5600,AM4,6,12,4.4,65.0,amd_zen3_vermeer_r5,11077.0
+DS3_CPU_014,BM_CPU_010,Intel,Core i5-12400F,LGA1700,6,12,4.4,117.0,intel_alder_lake_i5_12400,12454.0
+DS3_CPU_029,BM_CPU_011,AMD,Ryzen 5 5600G,AM4,6,12,4.4,65.0,amd_zen3_cezanne,10202.0
+DS3_CPU_040,BM_CPU_012,Intel,Core i3-12100F,LGA1700,4,8,4.3,89.0,intel_alder_lake_i3,8443.0
+cpu-i5-14600k,BM_CPU_013,Intel,Core i5-14600K,LGA1700,14,20,5.3,181.0,intel_raptor_refresh_i5_14600,24683.0
+cpu-intel-core-ultra-5-245kf,BM_CPU_014,Intel,Core Ultra 5 245KF,LGA1851,14,14,5.2,159.0,intel_arrow_lake_cu5,25188.0
+cpu-intel-core-i7-14700k,BM_CPU_015,Intel,Core i7-14700K,LGA1700,20,28,5.6,253.0,intel_raptor_refresh_i7_14700,36245.0
+cpu-intel-core-i7-14700kf,BM_CPU_016,Intel,Core i7-14700KF,LGA1700,20,28,5.6,253.0,intel_raptor_refresh_i7_14700,36245.0
+amd-ryzen-5-7600,BM_CPU_017,AMD,Ryzen 5 7600,AM5,6,12,5.1,65.0,amd_zen4_raphael_r5,14540.0
+amd-ryzen-7-8700g,BM_CPU_018,AMD,Ryzen 7 8700G,AM5,8,16,5.1,65.0,amd_zen4_phoenix,18040.0
+amd-ryzen-5-8600g,BM_CPU_019,AMD,Ryzen 5 8600G,AM5,6,12,5.0,65.0,amd_zen4_phoenix,14067.0
+DS3_CPU_011,BM_CPU_020,AMD,Ryzen 7 5800X,AM4,8,16,4.7,105.0,amd_zen3_vermeer_r7_5800,15228.0
+DS3_CPU_016,BM_CPU_021,AMD,Ryzen 7 5700X,AM4,8,16,4.6,65.0,amd_zen3_vermeer_r7_5700,14309.0
+DS3_CPU_021,BM_CPU_022,AMD,Ryzen 7 5700X3D,AM4,8,16,4.1,105.0,amd_zen3_vermeer_r7_5700,13786.0
+DS3_CPU_022,BM_CPU_023,Intel,Core i5-14400F,LGA1700,10,16,4.7,148.0,intel_raptor_refresh_i5_14400,16074.0
+DS3_CPU_024,BM_CPU_024,AMD,Ryzen 5 7500F,AM5,6,12,5.0,65.0,amd_zen4_raphael_r5,14072.0
+DS3_CPU_025,BM_CPU_025,AMD,Ryzen 7 5800XT,AM4,8,16,4.8,105.0,amd_zen3_vermeer_r7_5800,15036.0
+DS3_CPU_027,BM_CPU_026,Intel,Core i7-12700K,LGA1700,12,20,5.0,190.0,intel_alder_lake_i7_12700,22812.0
+DS3_CPU_028,BM_CPU_027,AMD,Ryzen 5 7600X3D,AM5,6,12,4.7,65.0,amd_zen4_raphael_r5,13463.0
+DS3_CPU_030,BM_CPU_028,AMD,Ryzen 7 7700,AM5,8,16,5.3,65.0,amd_zen4_raphael_r7,19540.0
+DS3_CPU_031,BM_CPU_029,Intel,Core i5-13400F,LGA1700,10,16,4.6,148.0,intel_raptor_lake_i5_13400,15890.0
+DS3_CPU_033,BM_CPU_030,Intel,Core i7-12700KF,LGA1700,12,20,5.0,190.0,intel_alder_lake_i7_12700,22812.0
+DS3_CPU_035,BM_CPU_031,Intel,Core i5-12600KF,LGA1700,10,16,4.9,150.0,intel_alder_lake_i5_12600,17660.0
+DS3_CPU_037,BM_CPU_032,Intel,Core i5-12600K,LGA1700,10,16,4.9,150.0,intel_alder_lake_i5_12600,17660.0
+DS3_CPU_038,BM_CPU_033,AMD,Ryzen 7 5700G,AM4,8,16,4.6,65.0,amd_zen3_cezanne,14075.0
+DS3_CPU_039,BM_CPU_034,AMD,Ryzen 7 5800X3D,AM4,8,16,4.5,105.0,amd_zen3_vermeer_r7_5800,15125.0
+DS3_CPU_042,BM_CPU_035,Intel,Core i5-14600KF,LGA1700,14,20,5.3,181.0,intel_raptor_refresh_i5_14600,24683.0
+DS3_CPU_052,BM_CPU_036,Intel,Core i7-13700K,LGA1700,16,24,5.4,253.0,intel_raptor_lake_i7_13700,30766.0
+DS3_CPU_053,BM_CPU_037,AMD,Ryzen 7 8700F,AM5,8,16,5.0,65.0,amd_zen4_phoenix,18040.0
+DS3_CPU_056,BM_CPU_038,Intel,Core i5-13600KF,LGA1700,14,20,5.1,181.0,intel_raptor_lake_i5_13600,23960.0
+DS3_CPU_058,BM_CPU_039,Intel,Core i7-14700F,LGA1700,20,28,5.4,219.0,intel_raptor_refresh_i7_14700,33441.0
+cpu-r9-9900x,BM_CPU_040,AMD,Ryzen 9 9900X,AM5,12,24,5.6,120.0,amd_zen5_granite_ridge_r9_9900,32960.0
+amd-ryzen-9-9950x,BM_CPU_041,AMD,Ryzen 9 9950X,AM5,16,32,5.7,170.0,amd_zen5_granite_ridge_r9_9950,42871.0
+amd-ryzen-9-7950x3d,BM_CPU_042,AMD,Ryzen 9 7950X3D,AM5,16,32,5.7,120.0,amd_zen4_raphael_r9_7950,38581.0
+amd-ryzen-9-7950x,BM_CPU_043,AMD,Ryzen 9 7950X,AM5,16,32,5.7,170.0,amd_zen4_raphael_r9_7950,38640.0
+amd-ryzen-9-7900x,BM_CPU_044,AMD,Ryzen 9 7900X,AM5,12,24,5.6,170.0,amd_zen4_raphael_r9_7900,29654.0
+amd-ryzen-9-7900,BM_CPU_045,AMD,Ryzen 9 7900,AM5,12,24,5.4,65.0,amd_zen4_raphael_r9_7900,28905.0
+DS3_CPU_034,BM_CPU_046,AMD,Ryzen 9 5900X,AM4,12,24,4.8,105.0,amd_zen3_vermeer_r9,21878.0
+DS3_CPU_057,BM_CPU_047,AMD,Ryzen 9 5900XT,AM4,16,32,4.8,105.0,amd_zen3_vermeer_r9,27966.0
+cpu-cu7-265k,BM_CPU_048,Intel,Core Ultra 7 265K,LGA1851,20,20,5.5,250.0,intel_arrow_lake_cu7,35315.0
+cpu-intel-core-ultra-9-285k,BM_CPU_049,Intel,Core Ultra 9 285K,LGA1851,24,24,5.7,250.0,intel_arrow_lake_cu9,42620.0
+cpu-intel-core-ultra-7-265kf,BM_CPU_050,Intel,Core Ultra 7 265KF,LGA1851,20,20,5.5,250.0,intel_arrow_lake_cu7,35315.0
+cpu-intel-core-i9-14900k,BM_CPU_051,Intel,Core i9-14900K,LGA1700,24,32,6.0,253.0,intel_raptor_refresh_i9_14900,38712.0
+cpu-intel-core-i9-14900kf,BM_CPU_052,Intel,Core i9-14900KF,LGA1700,24,32,6.0,253.0,intel_raptor_refresh_i9_14900,38712.0
+DS3_CPU_046,BM_CPU_053,Intel,Core i9-12900K,LGA1700,16,24,5.2,241.0,intel_alder_lake_i9_12900,27472.0
+DS3_CPU_054,BM_CPU_054,Intel,Core i9-14900KS,LGA1700,24,32,6.2,253.0,intel_raptor_refresh_i9_14900,40976.0
+DS3_CPU_060,BM_CPU_055,Intel,Core i9-13900K,LGA1700,24,32,5.8,253.0,intel_raptor_lake_i9_13900,39652.0

@@ -1,0 +1,15 @@
+feature_name,feature_role,data_type,source_file,source_field,extraction_method,description,allowed_in_model
+cores,Predictive Feature (Numeric),integer,data/components.csv,specs_json -> cores,JSON field extraction cast to integer,Physical CPU core count (P-cores + E-cores for hybrid architectures),true
+threads,Predictive Feature (Numeric),integer,data/components.csv,specs_json -> threads,JSON field extraction cast to integer,Logical processor thread count supporting simultaneous multithreading,true
+boost_clock_ghz,Predictive Feature (Numeric),float,data/components.csv,specs_json -> boost_ghz,JSON field extraction with alias fallback (boost_ghz / boost_clock_ghz) cast to float,Maximum factory boost frequency achievable on preferred core(s) in GHz,true
+tdp_w,Predictive Feature (Numeric),float,data/components.csv,specs_json -> tdp_w,JSON field extraction with alias fallback (tdp_w / tdp) cast to float,Thermal Design Power rating in Watts,true
+brand,Predictive Feature (Categorical),string,data/components.csv,brand,CSV column value trimmed to uppercase/titlecase ('AMD' or 'Intel'),Microprocessor manufacturer brand name,true
+socket,Predictive Feature (Categorical),string,data/components.csv,specs_json -> socket,"JSON field extraction trimmed ('AM4', 'AM5', 'LGA1700', 'LGA1851')",Motherboard CPU socket interface specification,true
+score,Target Variable (Supervised Regression Target),float,data/benchmarks.csv,score,"Direct CSV column parse cast to float, verified against review sources",Empirical Cinebench R23 Multi-Core benchmark result in points (pts),target
+component_id,Dataset Key / Audit Identifier,string,data/components.csv,component_id,Direct relational primary key match with data/benchmarks.csv,Unique component catalog identifier,false
+benchmark_id,Audit / Observation Identifier,string,data/benchmarks.csv,benchmark_id,Direct benchmark observation primary key,Unique benchmark observation tracking identifier (BM_CPU_001 to BM_CPU_055),false
+model,Audit / Reference Label,string,data/components.csv,model,Direct CSV column extraction,Commercial processor retail model designation,false
+group_id,Validation Splitting Group (GroupKFold),string,data/ml/cpu_family_groups.csv,group_id,Joined on component_id from verified silicon family mapping,Base silicon die and microarchitecture group identifier for leakage-free GroupKFold cross-validation,false
+benchmark_suite,Audit Metadata,string,data/benchmarks.csv,benchmark_suite,Direct CSV column validation (must equal 'Cinebench R23'),Standardized benchmark suite identifier,false
+benchmark_metric,Audit Metadata,string,data/benchmarks.csv,benchmark_metric,Direct CSV column validation (must equal 'Multi-Core Score'),Standardized benchmark metric identifier,false
+score_unit,Audit Metadata,string,data/benchmarks.csv,score_unit,Direct CSV column validation (must equal 'pts'),Standardized benchmark measurement unit,false

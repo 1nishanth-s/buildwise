@@ -1,0 +1,21 @@
+feature_set,description,algorithm,n_features,agg_oof_mae,agg_oof_rmse,agg_oof_r2,mean_fold_mae,std_fold_mae,mean_fold_rmse,std_fold_rmse,mean_fold_r2,std_fold_r2
+Set_A_V1_Baseline,Original V1 6-feature baseline,dummy,6,8739.2,10167.7,-0.0501,8739.2,2343.9,9887.5,2370.7,-0.1803,0.1147
+Set_A_V1_Baseline,Original V1 6-feature baseline,ridge,6,1483.7,1939.3,0.9618,1483.7,479.6,1861.5,544.1,0.9569,0.0142
+Set_A_V1_Baseline,Original V1 6-feature baseline,random_forest,6,2025.3,2705.6,0.9256,2025.3,737.1,2573.3,835.6,0.8953,0.0767
+Set_A_V1_Baseline,Original V1 6-feature baseline,hist_gradient_boosting,6,2171.2,2964.3,0.9108,2171.2,804.1,2813.0,935.0,0.8798,0.0761
+Set_B_Architecture,Original 6 features + microarchitecture generation,dummy,7,8739.2,10167.7,-0.0501,8739.2,2343.9,9887.5,2370.7,-0.1803,0.1147
+Set_B_Architecture,Original 6 features + microarchitecture generation,ridge,7,1253.1,1620.6,0.9733,1253.1,492.0,1530.7,532.2,0.9728,0.0064
+Set_B_Architecture,Original 6 features + microarchitecture generation,random_forest,7,2084.7,2734.7,0.924,2084.7,731.4,2593.9,866.0,0.8911,0.0819
+Set_B_Architecture,Original 6 features + microarchitecture generation,hist_gradient_boosting,7,2080.3,2927.9,0.9129,2080.3,827.8,2758.1,982.7,0.8859,0.074
+Set_C_CacheL3,Original 6 features + total shared L3 cache,dummy,7,8739.2,10167.7,-0.0501,8739.2,2343.9,9887.5,2370.7,-0.1803,0.1147
+Set_C_CacheL3,Original 6 features + total shared L3 cache,ridge,7,1499.1,1988.7,0.9598,1499.1,502.1,1902.0,580.8,0.9538,0.0192
+Set_C_CacheL3,Original 6 features + total shared L3 cache,random_forest,7,2042.2,2722.3,0.9247,2042.2,817.3,2575.1,883.2,0.8931,0.0842
+Set_C_CacheL3,Original 6 features + total shared L3 cache,hist_gradient_boosting,7,2212.9,2980.8,0.9098,2212.9,877.1,2817.6,972.7,0.8779,0.0799
+Set_D_Combined_Arch_L3,Original 6 features + architecture + cache_l3_mb,dummy,8,8739.2,10167.7,-0.0501,8739.2,2343.9,9887.5,2370.7,-0.1803,0.1147
+Set_D_Combined_Arch_L3,Original 6 features + architecture + cache_l3_mb,ridge,8,1276.4,1664.0,0.9719,1276.4,505.8,1579.1,524.9,0.9702,0.008
+Set_D_Combined_Arch_L3,Original 6 features + architecture + cache_l3_mb,random_forest,8,2131.1,2811.5,0.9197,2131.1,808.4,2656.1,921.8,0.8854,0.091
+Set_D_Combined_Arch_L3,Original 6 features + architecture + cache_l3_mb,hist_gradient_boosting,8,2115.4,2933.6,0.9126,2115.4,884.8,2753.7,1011.6,0.8848,0.0779
+Set_E_Comprehensive,Original 6 features + architecture + cache_l3_mb + cache_l2_mb + base_clock_ghz,dummy,10,8739.2,10167.7,-0.0501,8739.2,2343.9,9887.5,2370.7,-0.1803,0.1147
+Set_E_Comprehensive,Original 6 features + architecture + cache_l3_mb + cache_l2_mb + base_clock_ghz,ridge,10,1125.7,1484.8,0.9776,1125.7,412.8,1401.6,490.1,0.976,0.0086
+Set_E_Comprehensive,Original 6 features + architecture + cache_l3_mb + cache_l2_mb + base_clock_ghz,random_forest,10,1924.7,2582.1,0.9323,1924.7,592.5,2490.1,683.4,0.9063,0.0597
+Set_E_Comprehensive,Original 6 features + architecture + cache_l3_mb + cache_l2_mb + base_clock_ghz,hist_gradient_boosting,10,2054.8,2973.1,0.9102,2054.8,770.1,2793.8,1016.8,0.8814,0.0857

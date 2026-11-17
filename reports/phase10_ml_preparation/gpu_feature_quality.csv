@@ -1,0 +1,18 @@
+feature_name,total_records,non_missing_records,missing_records,missing_percentage,unique_values,data_type,invalid_value_count,units,source_mapping,decision,rationale
+vram_gb,57,57,0,0.0,7,int,0,GB,gpu_feature_enrichment.vram_gb,retained,Video RAM capacity; 100% complete; essential graphics memory buffer
+memory_bus_width_bits,57,57,0,0.0,7,int,0,bits,gpu_feature_enrichment.memory_bus_width_bits,retained,Memory bus interface width; 100% complete; fundamental bandwidth scaler
+memory_bandwidth_gbps,57,57,0,0.0,19,float,0,GB/s,gpu_feature_enrichment.memory_bandwidth_gbps,retained,Theoretical memory throughput; 100% complete; direct rendering performance driver
+base_clock_mhz,57,57,0,0.0,29,float,0,MHz,gpu_feature_enrichment.base_clock_mhz,retained,Base core frequency; 100% complete; engine clock floor
+boost_clock_mhz,57,57,0,0.0,41,float,0,MHz,gpu_feature_enrichment.boost_clock_mhz,retained,Maximum boost core frequency; 100% complete; peak shader throughput
+board_power_w,57,57,0,0.0,34,float,0,Watts,gpu_feature_enrichment.board_power_w,retained,Total board power / TGP; 100% complete; thermal and power budget capacity
+architecture,57,57,0,0.0,5,categorical,0,text,gpu_feature_enrichment.architecture,retained,"GPU microarchitecture (Ada, Ampere, RDNA 2, RDNA 3, Xe2); 100% complete; IPC differentiator"
+chipmaker,57,57,0,0.0,3,categorical,0,text,gpu_feature_enrichment.chipmaker,retained,"Primary GPU vendor (AMD, NVIDIA, Intel); 100% complete"
+memory_type,57,57,0,0.0,2,categorical,0,text,gpu_feature_enrichment.memory_type,retained,"VRAM memory standard (GDDR6, GDDR6X); 100% complete"
+cuda_cores,57,26,31,54.39,12,int,0,count,gpu_feature_enrichment.cuda_cores,excluded,NVIDIA-specific shader execution units (26/57 = 45.6%); excluded from cross-vendor feature set
+stream_processors,57,29,28,49.12,8,int,0,count,gpu_feature_enrichment.stream_processors,excluded,AMD-specific execution units (29/57 = 50.9%); non-comparable to CUDA cores; excluded
+compute_units,57,29,28,49.12,8,int,0,count,gpu_feature_enrichment.compute_units,excluded,AMD-specific compute cluster count (29/57 = 50.9%); missing on NVIDIA; excluded
+xe_cores,57,2,55,96.49,2,int,0,count,gpu_feature_enrichment.xe_cores,excluded,Intel-specific execution blocks (2/57 = 3.5%); excluded
+cache_l2_mb,57,28,29,50.88,10,float,0,MB,gpu_feature_enrichment.cache_l2_mb,excluded,L2 cache; 49.1% populated (28/57); missing on AMD RDNA 2/3 entries; excluded
+infinity_cache_mb,57,29,28,49.12,5,float,0,MB,gpu_feature_enrichment.infinity_cache_mb,excluded,AMD-specific infinity cache (29/57); absent on NVIDIA and Intel; excluded
+tensor_cores,57,26,31,54.39,12,int,0,count,gpu_feature_enrichment.tensor_cores,excluded,NVIDIA AI acceleration units (26/57); not utilized in 3DMark Time Spy rasterization
+rt_cores,57,26,31,54.39,12,int,0,count,gpu_feature_enrichment.rt_cores,excluded,NVIDIA ray tracing units (26/57); Time Spy is a pure DirectX 12 rasterization benchmark

@@ -1,0 +1,9 @@
+benchmark_id,component_id,category,benchmark_suite,benchmark_metric,score,score_unit,source_name,source_url,verified_date,test_configuration
+BM_CPU_048,cpu-cu7-265k,cpu,Cinebench R23,Multi-Core Score,35315,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_ultra_7_265k,2026-11-07,"Stock settings (125W base / 250W max turbo), DDR5-6400"
+BM_CPU_049,cpu-intel-core-ultra-9-285k,cpu,Cinebench R23,Multi-Core Score,42620,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_ultra_9_285k,2026-11-07,"Stock settings (125W base / 250W max turbo), DDR5-6400"
+BM_CPU_050,cpu-intel-core-ultra-7-265kf,cpu,Cinebench R23,Multi-Core Score,35315,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_ultra_7_265kf,2026-11-07,"Stock settings (125W base / 250W max turbo), DDR5-6400"
+BM_CPU_051,cpu-intel-core-i9-14900k,cpu,Cinebench R23,Multi-Core Score,38712,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i9_14900k,2026-11-07,"Stock settings (125W base / 253W max turbo), DDR5-5600"
+BM_CPU_052,cpu-intel-core-i9-14900kf,cpu,Cinebench R23,Multi-Core Score,38712,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i9_14900kf,2026-11-07,"Stock settings (125W base / 253W max turbo), DDR5-5600"
+BM_CPU_053,DS3_CPU_046,cpu,Cinebench R23,Multi-Core Score,27472,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i9_12900k,2026-11-07,"Stock settings (125W base / 241W max turbo), DDR5-4800"
+BM_CPU_054,DS3_CPU_054,cpu,Cinebench R23,Multi-Core Score,40976,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i9_14900ks,2026-11-07,"Stock settings (150W base / 253W max turbo, Extreme 320W profile), DDR5-5600"
+BM_CPU_055,DS3_CPU_060,cpu,Cinebench R23,Multi-Core Score,39652,pts,CPU-Monkey,https://www.cpu-monkey.com/en/cpu-intel_core_i9_13900k,2026-11-07,"Stock settings (125W base / 253W max turbo), DDR5-5600"

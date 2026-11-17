@@ -1,0 +1,24 @@
+file_path,change_type,category,description,lines_or_rows
+experiments/performance_prediction/__init__.py,added,code,Package initialization marker for ML pipeline,0 lines
+experiments/performance_prediction/config.py,added,code,Central configuration for benchmark targets feature allowlists and paths,92 lines
+experiments/performance_prediction/cpu_features.py,added,code,Standardized CPU hardware feature extraction and platform grouping,98 lines
+experiments/performance_prediction/gpu_features.py,added,code,Standardized GPU hardware feature extraction and die/SKU grouping,108 lines
+experiments/performance_prediction/feature_extraction.py,added,code,Unified leak-free feature extraction facade with assertions,120 lines
+experiments/performance_prediction/validation.py,added,code,Group-aware cross-validation splitters (GroupKFold GroupShuffleSplit),115 lines
+experiments/performance_prediction/dataset_preparation.py,added,code,Reproducible training dataset generation script,142 lines
+experiments/performance_prediction/README.md,added,documentation,Architecture documentation and feature guide for ML pipeline,128 lines
+experiments/performance_prediction/data/cpu_training_dataset.csv,added,data,Prepared CPU regression training dataset (Cinebench R23),180 rows
+experiments/performance_prediction/data/gpu_training_dataset.csv,added,data,Prepared GPU regression training dataset (Time Spy Graphics),57 rows
+tests/test_ml_dataset_preparation.py,added,test,Comprehensive Phase 10 unit test suite (18 tests),348 lines
+reports/phase10_ml_preparation/phase10_preparation_plan.md,added,report,Phase 10 strategic preparation and architecture plan,168 lines
+reports/phase10_ml_preparation/cpu_benchmark_target_audit.md,added,report,Empirical audit of 180 Cinebench R23 Multi-Core targets,85 lines
+reports/phase10_ml_preparation/gpu_benchmark_target_audit.md,added,report,Empirical audit of 57 3DMark Time Spy Graphics targets,98 lines
+reports/phase10_ml_preparation/feature_quality_report.md,added,report,Detailed feature engineering completeness and leakage audit,156 lines
+reports/phase10_ml_preparation/cpu_feature_quality.csv,added,report,Completeness and quality metrics for CPU features,14 rows
+reports/phase10_ml_preparation/gpu_feature_quality.csv,added,report,Completeness and quality metrics for GPU features,20 rows
+reports/phase10_ml_preparation/validation_split_design.md,added,report,GroupKFold and GroupShuffleSplit validation design,135 lines
+reports/phase10_ml_preparation/ml_training_readiness_report.md,added,report,Independent training readiness classification for CPU and GPU,118 lines
+reports/phase10_ml_preparation/phase10_test_report.md,added,report,Execution results for 18 unit tests and 127 regression tests,102 lines
+reports/phase10_ml_preparation/phase10_production_integrity_report.md,added,report,Cryptographic SHA-256 integrity report for production datasets,88 lines
+reports/phase10_ml_preparation/phase10_file_change_manifest.csv,added,report,Manifest of all files created or modified in Phase 10,24 rows
+reports/phase10_ml_preparation/phase10_final_summary.md,added,report,Executive master summary and Phase 11 transition roadmap,180 lines

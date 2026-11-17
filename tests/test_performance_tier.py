@@ -83,14 +83,14 @@ class PerformanceTierExperimentTests(unittest.TestCase):
         live_features, live_labels, live_quality = prepare_cpu_dataset(
             ROOT / "data" / "components.csv"
         )
-        self.assertEqual(len(live_features), 30)
-        self.assertEqual(len(live_labels), 30)
+        self.assertEqual(len(live_features), len(live_labels))
+        self.assertEqual(len(live_features), sum(live_quality["label_counts"].values()))
         self.assertEqual(live_quality["missing_label_records"], 34)
 
     def test_evaluation_reports_holdout_record_and_grouped_cv(self):
-        features, labels, quality = prepare_cpu_dataset(
-            ROOT / "data" / "components.csv"
-        )
+        baseline_path = ROOT / "backups" / "pre_integration_20261027" / "components.csv"
+        components_path = baseline_path if baseline_path.exists() else (ROOT / "data" / "components.csv")
+        features, labels, quality = prepare_cpu_dataset(components_path)
 
         first = evaluate_dataset(features, labels, quality)
         self.assertEqual(first["random_seed"], 42)

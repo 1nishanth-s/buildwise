@@ -1,0 +1,58 @@
+component_id,benchmark_id,brand,model,base_die_group_id,sku_group_id,group_id,vram_gb,memory_bus_width_bits,memory_bandwidth_gbps,base_clock_mhz,boost_clock_mhz,board_power_w,architecture,chipmaker,memory_type,timespy_graphics_score
+DS3_GPU_036,BM_GPU_001,ASUS,ROG STRIX GAMING OC,nvidia_ada_ad102,nvidia_ada_4090_24gb,nvidia_ada_ad102,24,384,1008.0,2235.0,2640.0,500.0,Ada Lovelace,NVIDIA,GDDR6X,36742.0
+DS3_GPU_035,BM_GPU_002,ASUS,GeForce RTX 4080 SUPER TUF GAMING OC 16GB,nvidia_ada_ad103,nvidia_ada_4080s_16gb,nvidia_ada_ad103,16,256,736.0,2210.0,2640.0,320.0,Ada Lovelace,NVIDIA,GDDR6X,28642.0
+DS3_GPU_048,BM_GPU_003,Gigabyte,WINDFORCE V2,nvidia_ada_ad103,nvidia_ada_4080s_16gb,nvidia_ada_ad103,16,256,736.0,2210.0,2550.0,320.0,Ada Lovelace,NVIDIA,GDDR6X,28305.0
+DS3_GPU_009,BM_GPU_004,ASUS,GeForce RTX 4070 Ti SUPER TUF GAMING OC 16GB,nvidia_ada_ad103,nvidia_ada_4070tis_16gb,nvidia_ada_ad103,16,256,672.0,2340.0,2670.0,285.0,Ada Lovelace,NVIDIA,GDDR6X,24312.0
+DS3_GPU_050,BM_GPU_005,ASUS,GeForce RTX 4070 Ti TUF GAMING OC 12GB,nvidia_ada_ad104,nvidia_ada_4070ti_12gb,nvidia_ada_ad104,12,192,504.0,2310.0,2760.0,285.0,Ada Lovelace,NVIDIA,GDDR6X,23124.0
+DS3_GPU_007,BM_GPU_006,Gigabyte,GeForce RTX 4070 SUPER WINDFORCE OC 12GB,nvidia_ada_ad104,nvidia_ada_4070s_12gb,nvidia_ada_ad104,12,192,504.0,1980.0,2505.0,220.0,Ada Lovelace,NVIDIA,GDDR6X,21180.0
+DS3_GPU_049,BM_GPU_007,MSI,GeForce RTX 4070 SUPER VENTUS 2X OC 12GB,nvidia_ada_ad104,nvidia_ada_4070s_12gb,nvidia_ada_ad104,12,192,504.0,1980.0,2520.0,220.0,Ada Lovelace,NVIDIA,GDDR6X,21245.0
+DS3_GPU_015,BM_GPU_008,Gigabyte,GeForce RTX 4070 WINDFORCE OC 12GB,nvidia_ada_ad104,nvidia_ada_4070_12gb,nvidia_ada_ad104,12,192,504.0,1920.0,2490.0,200.0,Ada Lovelace,NVIDIA,GDDR6X,17890.0
+DS3_GPU_027,BM_GPU_009,ASUS,GeForce RTX 4060 Ti DUAL EVO OC 8GB,nvidia_ada_ad106,nvidia_ada_4060ti_8gb,nvidia_ada_ad106,8,128,288.0,2310.0,2595.0,160.0,Ada Lovelace,NVIDIA,GDDR6,13620.0
+DS3_GPU_040,BM_GPU_010,ASUS,GeForce RTX 4060 Ti DUAL EVO OC 16GB,nvidia_ada_ad106,nvidia_ada_4060ti_16gb,nvidia_ada_ad106,16,128,288.0,2310.0,2625.0,165.0,Ada Lovelace,NVIDIA,GDDR6,13655.0
+DS3_GPU_047,BM_GPU_011,MSI,GeForce RTX 4060 Ti VENTUS 2X BLACK OC 16GB,nvidia_ada_ad106,nvidia_ada_4060ti_16gb,nvidia_ada_ad106,16,128,288.0,2310.0,2625.0,165.0,Ada Lovelace,NVIDIA,GDDR6,13580.0
+DS3_GPU_003,BM_GPU_012,MSI,GeForce RTX 4060 VENTUS 2X BLACK OC 8GB,nvidia_ada_ad107,nvidia_ada_4060_8gb,nvidia_ada_ad107,8,128,272.0,1830.0,2505.0,115.0,Ada Lovelace,NVIDIA,GDDR6,10580.0
+DS3_GPU_012,BM_GPU_013,ASUS,DUAL OC V2,nvidia_ada_ad107,nvidia_ada_4060_8gb,nvidia_ada_ad107,8,128,272.0,1830.0,2535.0,115.0,Ada Lovelace,NVIDIA,GDDR6,10685.0
+DS3_GPU_013,BM_GPU_014,ASUS,GeForce RTX 4060 DUAL EVO OC 8GB,nvidia_ada_ad107,nvidia_ada_4060_8gb,nvidia_ada_ad107,8,128,272.0,1830.0,2535.0,115.0,Ada Lovelace,NVIDIA,GDDR6,10685.0
+DS3_GPU_018,BM_GPU_015,Gigabyte,GeForce RTX 4060 WINDFORCE OC 8GB,nvidia_ada_ad107,nvidia_ada_4060_8gb,nvidia_ada_ad107,8,128,272.0,1830.0,2475.0,115.0,Ada Lovelace,NVIDIA,GDDR6,10540.0
+DS3_GPU_032,BM_GPU_016,Gigabyte,GeForce RTX 4060 GAMING OC 8GB,nvidia_ada_ad107,nvidia_ada_4060_8gb,nvidia_ada_ad107,8,128,272.0,1830.0,2550.0,115.0,Ada Lovelace,NVIDIA,GDDR6,10760.0
+gpu-amd-radeon-rx-7900-xtx-24gb,BM_GPU_017,AMD,Radeon RX 7900 XTX 24GB,amd_rdna3_navi31,amd_rdna3_7900xtx_24gb,amd_rdna3_navi31,24,384,960.0,1855.0,2499.0,355.0,RDNA 3,AMD,GDDR6,27958.0
+DS3_GPU_010,BM_GPU_018,XFX,Speedster MERC 310 Black Edition,amd_rdna3_navi31,amd_rdna3_7900xtx_24gb,amd_rdna3_navi31,24,384,960.0,1900.0,2615.0,410.0,RDNA 3,AMD,GDDR6,28680.0
+DS3_GPU_039,BM_GPU_019,Sapphire,Radeon RX 7900 XTX NITRO+ 24GB,amd_rdna3_navi31,amd_rdna3_7900xtx_24gb,amd_rdna3_navi31,24,384,960.0,2000.0,2680.0,420.0,RDNA 3,AMD,GDDR6,30285.0
+DS3_GPU_017,BM_GPU_020,XFX,Speedster MERC 310,amd_rdna3_navi31,amd_rdna3_7900xt_20gb,amd_rdna3_navi31,20,320,800.0,1775.0,2535.0,315.0,RDNA 3,AMD,GDDR6,25840.0
+DS3_GPU_028,BM_GPU_021,XFX,RX-79TMBABF9,amd_rdna3_navi31,amd_rdna3_7900xt_20gb,amd_rdna3_navi31,20,320,800.0,1500.0,2394.0,300.0,RDNA 3,AMD,GDDR6,25345.0
+gpu-amd-radeon-rx-7900-gre-16gb,BM_GPU_022,AMD,Radeon RX 7900 GRE 16GB,amd_rdna3_navi31,amd_rdna3_7900gre_16gb,amd_rdna3_navi31,16,256,576.0,1270.0,2245.0,260.0,RDNA 3,AMD,GDDR6,21520.0
+gpu-amd-radeon-rx-7800-xt-16gb,BM_GPU_023,AMD,Radeon RX 7800 XT 16GB,amd_rdna3_navi32,amd_rdna3_7800xt_16gb,amd_rdna3_navi32,16,256,624.0,1295.0,2430.0,263.0,RDNA 3,AMD,GDDR6,18850.0
+DS3_GPU_006,BM_GPU_024,PowerColor,RX7800XT 16G-P,amd_rdna3_navi32,amd_rdna3_7800xt_16gb,amd_rdna3_navi32,16,256,624.0,1295.0,2525.0,263.0,RDNA 3,AMD,GDDR6,19250.0
+DS3_GPU_016,BM_GPU_025,Gigabyte,Radeon RX 7800 XT GAMING OC 16GB,amd_rdna3_navi32,amd_rdna3_7800xt_16gb,amd_rdna3_navi32,16,256,624.0,1624.0,2565.0,280.0,RDNA 3,AMD,GDDR6,19420.0
+DS3_GPU_023,BM_GPU_026,XFX,Radeon RX 7800 XT Speedster QICK 319 Core 16GB,amd_rdna3_navi32,amd_rdna3_7800xt_16gb,amd_rdna3_navi32,16,256,624.0,1295.0,2430.0,263.0,RDNA 3,AMD,GDDR6,18920.0
+DS3_GPU_034,BM_GPU_027,Sapphire,Radeon RX 7800 XT NITRO+ 16GB,amd_rdna3_navi32,amd_rdna3_7800xt_16gb,amd_rdna3_navi32,16,256,624.0,1624.0,2565.0,288.0,RDNA 3,AMD,GDDR6,19850.0
+DS3_GPU_041,BM_GPU_028,ASUS,Radeon RX 7800 XT DUAL OC 16GB,amd_rdna3_navi32,amd_rdna3_7800xt_16gb,amd_rdna3_navi32,16,256,624.0,1624.0,2520.0,270.0,RDNA 3,AMD,GDDR6,19340.0
+DS3_GPU_042,BM_GPU_029,Sapphire,Radeon RX 7800 XT PULSE 16GB,amd_rdna3_navi32,amd_rdna3_7800xt_16gb,amd_rdna3_navi32,16,256,624.0,1295.0,2430.0,263.0,RDNA 3,AMD,GDDR6,18890.0
+gpu-amd-radeon-rx-7700-xt-12gb,BM_GPU_030,AMD,Radeon RX 7700 XT 12GB,amd_rdna3_navi32,amd_rdna3_7700xt_12gb,amd_rdna3_navi32,12,192,432.0,1435.0,2544.0,245.0,RDNA 3,AMD,GDDR6,16850.0
+DS3_GPU_019,BM_GPU_031,Gigabyte,Radeon RX 7700 XT GAMING OC 12GB,amd_rdna3_navi32,amd_rdna3_7700xt_12gb,amd_rdna3_navi32,12,192,432.0,1700.0,2599.0,260.0,RDNA 3,AMD,GDDR6,17210.0
+DS3_GPU_026,BM_GPU_032,XFX,Radeon RX 7700 XT Speedster SWFT 210 Core 12GB,amd_rdna3_navi32,amd_rdna3_7700xt_12gb,amd_rdna3_navi32,12,192,432.0,1425.0,2544.0,245.0,RDNA 3,AMD,GDDR6,16880.0
+DS3_GPU_031,BM_GPU_033,XFX,Speedster QICK 319 BLACK,amd_rdna3_navi32,amd_rdna3_7700xt_12gb,amd_rdna3_navi32,12,192,432.0,1700.0,2599.0,260.0,RDNA 3,AMD,GDDR6,17150.0
+DS3_GPU_002,BM_GPU_034,Gigabyte,Radeon RX 7600 XT GAMING OC 16GB,amd_rdna3_navi33,amd_rdna3_7600xt_16gb,amd_rdna3_navi33,16,128,288.0,1720.0,2810.0,190.0,RDNA 3,AMD,GDDR6,11280.0
+gpu-amd-radeon-rx-7600-8gb,BM_GPU_035,AMD,Radeon RX 7600 8GB,amd_rdna3_navi33,amd_rdna3_7600_8gb,amd_rdna3_navi33,8,128,288.0,1720.0,2655.0,165.0,RDNA 3,AMD,GDDR6,10687.0
+DS3_GPU_014,BM_GPU_036,ASUS,Radeon RX 7600 DUAL EVO OC 8GB,amd_rdna3_navi33,amd_rdna3_7600_8gb,amd_rdna3_navi33,8,128,288.0,1720.0,2715.0,175.0,RDNA 3,AMD,GDDR6,10850.0
+DS3_GPU_020,BM_GPU_037,Gigabyte,Radeon RX 7600 GAMING OC 8GB,amd_rdna3_navi33,amd_rdna3_7600_8gb,amd_rdna3_navi33,8,128,288.0,1720.0,2755.0,180.0,RDNA 3,AMD,GDDR6,10895.0
+DS3_GPU_038,BM_GPU_038,Sapphire,Radeon RX 7600 PULSE 8GB,amd_rdna3_navi33,amd_rdna3_7600_8gb,amd_rdna3_navi33,8,128,288.0,1720.0,2755.0,180.0,RDNA 3,AMD,GDDR6,10820.0
+DS3_GPU_044,BM_GPU_039,XFX,Radeon RX 7600 Speedster SWFT 210 Core 8GB,amd_rdna3_navi33,amd_rdna3_7600_8gb,amd_rdna3_navi33,8,128,288.0,1720.0,2655.0,165.0,RDNA 3,AMD,GDDR6,10740.0
+DS3_GPU_021,BM_GPU_040,ASUS,GeForce RTX 3070 TUF GAMING OC 8GB,nvidia_ampere_ga104,nvidia_ampere_3070_8gb,nvidia_ampere_ga104,8,256,448.0,1500.0,1845.0,240.0,Ampere,NVIDIA,GDDR6,14180.0
+DS3_GPU_045,BM_GPU_041,Gigabyte,GeForce RTX 3070 GAMING OC 8GB,nvidia_ampere_ga104,nvidia_ampere_3070_8gb,nvidia_ampere_ga104,8,256,448.0,1500.0,1815.0,270.0,Ampere,NVIDIA,GDDR6,14150.0
+DS3_GPU_033,BM_GPU_042,MSI,GeForce RTX 3060 Ti GAMING X,nvidia_ampere_ga104,nvidia_ampere_3060ti_8gb,nvidia_ampere_ga104,8,256,448.0,1410.0,1770.0,220.0,Ampere,NVIDIA,GDDR6,12045.0
+DS3_GPU_001,BM_GPU_043,MSI,GeForce RTX 3060 Ventus 2X 12G,nvidia_ampere_ga106,nvidia_ampere_3060_12gb,nvidia_ampere_ga106,12,192,360.0,1320.0,1807.0,170.0,Ampere,NVIDIA,GDDR6,8783.0
+DS3_GPU_008,BM_GPU_044,Zotac,GAMING Twin Edge,nvidia_ampere_ga106,nvidia_ampere_3060_12gb,nvidia_ampere_ga106,12,192,360.0,1320.0,1777.0,170.0,Ampere,NVIDIA,GDDR6,8750.0
+DS3_GPU_011,BM_GPU_045,ASUS,Dual GeForce RTX 3060 V2 OC Edition,nvidia_ampere_ga106,nvidia_ampere_3060_12gb,nvidia_ampere_ga106,12,192,360.0,1320.0,1867.0,170.0,Ampere,NVIDIA,GDDR6,8870.0
+DS3_GPU_024,BM_GPU_046,Gigabyte,GAMING OC Rev 2.0,nvidia_ampere_ga106,nvidia_ampere_3060_12gb,nvidia_ampere_ga106,12,192,360.0,1320.0,1837.0,180.0,Ampere,NVIDIA,GDDR6,8920.0
+DS3_GPU_025,BM_GPU_047,MSI,VENTUS 2X XS OC,nvidia_ampere_ga106,nvidia_ampere_3050_8gb,nvidia_ampere_ga106,8,128,224.0,1552.0,1807.0,130.0,Ampere,NVIDIA,GDDR6,6180.0
+DS3_GPU_004,BM_GPU_048,MSI,GeForce RTX 3050 6GB VENTUS 2X OC 6GB,nvidia_ampere_ga107,nvidia_ampere_3050_6gb,nvidia_ampere_ga107,6,96,168.0,1042.0,1492.0,70.0,Ampere,NVIDIA,GDDR6,4780.0
+DS3_GPU_022,BM_GPU_049,ASUS,GeForce RTX 3050 6GB DUAL OC 6GB,nvidia_ampere_ga107,nvidia_ampere_3050_6gb,nvidia_ampere_ga107,6,96,168.0,1042.0,1537.0,70.0,Ampere,NVIDIA,GDDR6,4820.0
+DS3_GPU_029,BM_GPU_050,XFX,Radeon RX 6750 XT Speedster QICK 319 Core 12GB,amd_rdna2_navi22,amd_rdna2_6750xt_12gb,amd_rdna2_navi22,12,192,432.0,2150.0,2600.0,250.0,RDNA 2,AMD,GDDR6,13820.0
+DS3_GPU_030,BM_GPU_051,XFX,Speedster SWFT 309,amd_rdna2_navi22,amd_rdna2_6700xt_12gb,amd_rdna2_navi22,12,192,384.0,2321.0,2581.0,230.0,RDNA 2,AMD,GDDR6,11960.0
+DS3_GPU_037,BM_GPU_052,Sapphire,Radeon RX 6700 XT PULSE 12GB,amd_rdna2_navi22,amd_rdna2_6700xt_12gb,amd_rdna2_navi22,12,192,384.0,2321.0,2581.0,230.0,RDNA 2,AMD,GDDR6,12040.0
+DS3_GPU_043,BM_GPU_053,XFX,Radeon RX 6650 XT Speedster SWFT 210 Core 8GB,amd_rdna2_navi23,amd_rdna2_6650xt_8gb,amd_rdna2_navi23,8,128,280.0,2055.0,2635.0,180.0,RDNA 2,AMD,GDDR6,10240.0
+DS3_GPU_005,BM_GPU_054,XFX,Speedster SWFT 210,amd_rdna2_navi23,amd_rdna2_6600_8gb,amd_rdna2_navi23,8,128,224.0,1626.0,2491.0,132.0,RDNA 2,AMD,GDDR6,8160.0
+DS3_GPU_046,BM_GPU_055,Gigabyte,EAGLE,amd_rdna2_navi23,amd_rdna2_6600_8gb,amd_rdna2_navi23,8,128,224.0,1626.0,2491.0,132.0,RDNA 2,AMD,GDDR6,8175.0
+gpu-intel-arc-b580-12gb,BM_GPU_056,Intel,Arc B580 12GB,intel_bmg_g21,intel_bmg_b580_12gb,intel_bmg_g21,12,192,456.0,2670.0,2670.0,190.0,Xe2-HPG,Intel,GDDR6,14719.0
+gpu-intel-arc-b570-10gb,BM_GPU_057,Intel,Arc B570 10GB,intel_bmg_g21,intel_bmg_b570_10gb,intel_bmg_g21,10,160,380.0,2500.0,2500.0,150.0,Xe2-HPG,Intel,GDDR6,12788.0
